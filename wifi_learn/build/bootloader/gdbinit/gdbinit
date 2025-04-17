@@ -1,2 +1,0 @@
-source /home/yizhihuyao/esp32/proj/wifi_learn/build/bootloader/gdbinit/symbols
-source /home/yizhihuyao/esp32/proj/wifi_learn/build/bootloader/gdbinit/connect
