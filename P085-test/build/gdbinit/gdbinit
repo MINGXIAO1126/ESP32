@@ -1,0 +1,2 @@
+source /home/yizhihuyao/esp32/esp-idf/proj/P085-test/build/gdbinit/symbols
+source /home/yizhihuyao/esp32/esp-idf/proj/P085-test/build/gdbinit/connect

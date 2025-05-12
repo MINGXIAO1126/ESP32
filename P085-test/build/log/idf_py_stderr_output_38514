@@ -1,0 +1,18 @@
+[0;33m--- esp-idf-monitor 1.6.2 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- Stack dump detected[0m
+[0;33m--- 0x4200ba30: app_main at /home/yizhihuyao/esp32/esp-idf/proj/P085-test/main/P085_app.c:42
+--- 0x4200ba30: app_main at /home/yizhihuyao/esp32/esp-idf/proj/P085-test/main/P085_app.c:42
+[0m
+[0;33m--- 0x40030dca: memset in ROM
+[0m
+[0;33m--- 0x40800001: _vector_table at /home/yizhihuyao/esp32/esp-idf/components/riscv/vectors_intc.S:54
+[0m
+[0;33m--- 0x4200ba30: app_main at /home/yizhihuyao/esp32/esp-idf/proj/P085-test/main/P085_app.c:42
+--- 0x4200ba30: app_main at /home/yizhihuyao/esp32/esp-idf/proj/P085-test/main/P085_app.c:42
+[0m
+[0;33m--- 0x40030dca: memset in ROM
+[0m
+[0;33m--- 0x40800001: _vector_table at /home/yizhihuyao/esp32/esp-idf/components/riscv/vectors_intc.S:54
+[0m
+[0m

@@ -1,0 +1,41 @@
+[0;33m--- esp-idf-monitor 1.6.2 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- Stack dump detected[0m
+[0;33m--- 0x40800966: panic_abort at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+--- 0x40806168: vPortTLSPointersDelCb at /home/yizhihuyao/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/port.c:700
+[0m
+[0;33m--- 0x40030dca: memset in ROM
+[0m
+[0;33m--- 0x40800001: _vector_table at /home/yizhihuyao/esp32/esp-idf/components/riscv/vectors_intc.S:54
+[0m
+[0m
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/lib/python3.10/site-packages/esp_idf_monitor/__main__.py", line 4, in <module>
+    main()
+  File "/home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/lib/python3.10/site-packages/esp_idf_monitor/idf_monitor.py", line 449, in main
+    monitor.main_loop()
+  File "/home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/lib/python3.10/site-packages/esp_idf_monitor/idf_monitor.py", line 193, in main_loop
+    self._main_loop()
+  File "/home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/lib/python3.10/site-packages/esp_idf_monitor/idf_monitor.py", line 309, in _main_loop
+    super()._main_loop()
+  File "/home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/lib/python3.10/site-packages/esp_idf_monitor/idf_monitor.py", line 241, in _main_loop
+    self.serial_handler.handle_serial_input(data, self.console_parser, self.coredump,  # type: ignore
+  File "/home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/lib/python3.10/site-packages/esp_idf_monitor/base/serial_handler.py", line 177, in handle_serial_input
+    self.check_panic_decode_trigger(line_strip)
+  File "/home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/lib/python3.10/site-packages/esp_idf_monitor/base/serial_handler.py", line 245, in check_panic_decode_trigger
+    out = self.panic_handler.process_panic_output(self._panic_buffer)
+  File "/home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/lib/python3.10/site-packages/esp_idf_panic_decoder/panic_output_decoder.py", line 38, in process_panic_output
+    output = subprocess.check_output(cmd, stderr=subprocess.STDOUT)
+  File "/usr/lib/python3.10/subprocess.py", line 421, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+  File "/usr/lib/python3.10/subprocess.py", line 503, in run
+    with Popen(*popenargs, **kwargs) as process:
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1863, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'riscv32-esp-elf-gdb'
