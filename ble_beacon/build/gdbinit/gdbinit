@@ -1,2 +1,0 @@
-source /home/yizhihuyao/esp32/esp-idf/proj/ble_beacon/build/gdbinit/symbols
-source /home/yizhihuyao/esp32/esp-idf/proj/ble_beacon/build/gdbinit/connect

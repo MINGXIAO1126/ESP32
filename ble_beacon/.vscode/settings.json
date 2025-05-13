@@ -1,8 +1,0 @@
-{
-  "C_Cpp.intelliSenseEngine": "default",
-  "files.associations": {
-    "chrono": "c",
-    "text_encoding": "c",
-    "typeinfo": "c"
-  }
-}
