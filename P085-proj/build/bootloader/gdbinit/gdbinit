@@ -1,0 +1,2 @@
+source /home/yizhihuyao/esp32/proj/P085-proj/build/bootloader/gdbinit/symbols
+source /home/yizhihuyao/esp32/proj/P085-proj/build/bootloader/gdbinit/connect
