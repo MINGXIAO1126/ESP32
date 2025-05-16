@@ -1,95 +1,55 @@
 #include <stdio.h>
 #include "P085_drv.h"
 #include "esp_log.h"
-#include "driver/gpio.h"//todo该头文件是esp_driver_gpio组件提供的API的一部分 ，要声明组件依赖于esp_driver_gpio，则添加REQUIRES esp_driver_gpio在cmakelist中
+#include "driver/gpio.h" //todo该头文件是esp_driver_gpio组件提供的API的一部分 ，要声明组件依赖于esp_driver_gpio，则添加REQUIRES esp_driver_gpio在cmakelist中
 #include "button.h"
 #include "led.h"
 
 //*任务函数必须永不返回，如果确实需要终止任务，则需要调用vTASKDelete（）；
 
 #define TAG "哈哈哈"
-#define LONG_PRESS_TIME  pdMS_TO_TICKS(2000)//长按计时,2秒
 
-//开始任务
-#define START_TASK_DEPTH     1024//任务栈深
-#define START_TASK_PRIOIRIY  1//任务优先级
+// 开始任务
+#define START_TASK_DEPTH 1024 // 任务栈深
+#define START_TASK_PRIOIRIY 1 // 任务优先级
 
-//按键任务
-#define BTN_TASK_DEPTH  4096//任务栈深
-#define BTN_TASK_PRIOIRTY 1//任务优先级
+// 按键任务
+#define BTN_TASK_DEPTH 4096 // 任务栈深
+#define BTN_TASK_PRIOIRTY 1 // 任务优先级
 
-volatile bool long_sign = false; //长按标记
-TimerHandle_t long_press_timer =NULL;//长按定时器句柄
-
-//按键任务入口函数
+// 按键任务入口函数
 void btn_run_task(void *param)
 {
-    static int last_level =1;//初始时按键未按下
-    while(1)
+    static bool led_state = false; // 灯的开关状态
+
+    while (1)
     {
-        //等待中断通知
-        //! 该函数用于等待任务通知类似于“获取一个计数信号量”，它可以让任务进入阻塞态，等待通知值不为0时被唤醒
-        //! 参数：uxIndexToWaitOn--等待通知值数组下标（第几个通知槽位）
-        //!       xClearCountOnExit--pdFALSE:退出函数时将通知值减1，非pdFALSE：退出时函数将通知值清零
-        //!       xTicksToWait--任务在没有通知值时最多阻塞时间（tick数），可用pdMS_TO_TICKS()转换毫秒为tick
-        ulTaskNotifyTake(pdFALSE,pdMS_TO_TICKS(10));
+        // 等待中断通知
+        ulTaskNotifyTake(pdFALSE,portMAX_DELAY);
 
-        int ret = gpio_get_level(BTN);
+        // 每次按键释放时，切换灯的状态
+        led_state = !led_state;
 
-        //按键按下
-        if(ret == 0 && last_level == 1)
+        if (led_state)
         {
-            if(xTimerIsTimerActive(long_press_timer) == pdFALSE)
-            {
-                if(xTimerStart(long_press_timer,0) != pdPASS)
-                {
-                    ESP_LOGI(TAG,"启动定时器失败");
-                }
-            }
+            ESP_LOGI(TAG, "开灯");
+            Rgb_led_flashing(); // 开灯
         }
-
-        //按键释放
-        if(ret == 1 && last_level == 0)
+        else
         {
-            xTimerStop(long_press_timer,0);//松手时关闭长按定时器
-            if(long_sign == true)
-            {
-                ESP_LOGI(TAG,"长按");
-                turn_of_light();//长按熄灯
-                long_sign = false;//标志清零
-            }
-            else
-            {
-                ESP_LOGI(TAG,"短按");
-                Rgb_led_flashing();//短按闪灯
-            }
+            ESP_LOGI(TAG, "关灯");
+            turn_of_light(); // 关灯
         }
-        last_level = ret;//更新上次状态
     }
 }
 
-//按键长按回调
-void long_press_cb(TimerHandle_t xTimer)
-{
-    long_sign = true;
-}
-
-//开始任务函数入口
+// 开始任务函数入口
 void start_task(void *param)
 {
-    //创建软件定时器
-    //! 软件定时器创建函数，用于创建一个定时器句柄，方便后续控制。创建时是休眠状态，需要调用xTimerStart（）才会激活。
-    //! 参数：pcTimerName--定时器名称
-    //!       xTimerPeriodInTicks--定时周期，单位为TICk（需要用portTICK_PERIOD_MS转换毫秒）
-    //!       xAutoReload--是否重装载，pdTRUE--回调后自动重装载，再次开始，PDFALSE--回调后停止（一次性定时器）
-    //!       pvTimerID--用户自定义ID（可传任意数据，在回调函数里可以识别）
-    //!       pxCallbackFunction--超时后调用的回调函数
-    long_press_timer = xTimerCreate("long press timer",LONG_PRESS_TIME,pdFALSE,NULL,long_press_cb);
+    // 按键任务
+    xTaskCreate(btn_run_task, "button task", BTN_TASK_DEPTH, NULL, BTN_TASK_PRIOIRTY, &BtnTask_handler);
 
-    //按键任务
-    xTaskCreate(btn_run_task,"button task",BTN_TASK_DEPTH,NULL,BTN_TASK_PRIOIRTY,&BtnTask_handler);
-
-    //删除启动任务
+    // 删除启动任务
     vTaskDelete(NULL);
 }
 

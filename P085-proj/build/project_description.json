@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "P085-proj",
-    "project_version":    "1",
+    "project_version":    "fb1720b-dirty",
     "project_path":       "/home/yizhihuyao/esp32/proj/P085-proj",
     "idf_path":           "/home/yizhihuyao/esp32/esp-idf",
     "build_dir":          "/home/yizhihuyao/esp32/proj/P085-proj/build",
@@ -1195,7 +1195,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/yizhihuyao/esp32/proj/P085-proj/main/P085_drv.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/P085_proj.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/button.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/led.c" ],
+            "sources": [ "/home/yizhihuyao/esp32/proj/P085-proj/main/P085_drv.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/P085_proj.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/button.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/ens210.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/led.c" ],
             "include_dirs": [ "./inc" ]
         },
         "mbedtls": {

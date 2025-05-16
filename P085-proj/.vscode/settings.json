@@ -1,3 +1,10 @@
 {
-  "C_Cpp.intelliSenseEngine": "default"
+  "C_Cpp.intelliSenseEngine": "default",
+  "files.associations": {
+    "hal_utils.h": "c",
+    "cstdint": "cpp",
+    "param.h": "c",
+    "i2c_hal.h": "c",
+    "i2c_master.h": "c"
+  }
 }

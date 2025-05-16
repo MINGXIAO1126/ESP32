@@ -1,0 +1,348 @@
+[0;32mI (128) cpu_start: Pro cpu start user code[0m
+[0;32mI (128) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (128) app_init: Application information:[0m
+[0;32mI (129) app_init: Project name:     P085-proj[0m
+[0;32mI (132) app_init: App version:      fb1720b-dirty[0m
+[0;32mI (137) app_init: Compile time:     May 15 2025 20:08:30[0m
+[0;32mI (142) app_init: ELF file SHA256:  9397a0b20...[0m
+[0;32mI (146) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (150) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (154) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (158) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (162) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (168) heap_init: At 4080DC80 len 0006E990 (442 KiB): RAM[0m
+[0;32mI (173) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (13) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (17) boot.esp32c6: SPI Flash Size : 2MB[0m
+[0;32mI (21) boot: Enabling RNG early entropy source...[0m
+[0;32mI (25) boot: Partition Table:[0m
+[0;32mI (28) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (34) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (41) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (47) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (54) boot: End of partition table[0m
+[0;32mI (57) esp_image: segment 0: paddr=00010020 vaddr=42018020 size=0a048h ( 41032) map[0m
+[0;32mI (72) esp_image: segment 1: paddr=0001a070 vaddr=40800000 size=05fa8h ( 24488) load[0m
+[0;32mI (78) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=1595ch ( 88412) map[0m
+[0;32mI (96) esp_image: segment 3: paddr=00035984 vaddr=40805fa8 size=05618h ( 22040) load[0m
+[0;32mI (101) esp_image: segment 4: paddr=0003afa4 vaddr=4080b5c0 size=01738h (  5944) load[0m
+[0;32mI (106) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (106) boot: Disabling RNG early entropy source...[0m
+[0;32mI (121) cpu_start: Unicore app[0m
+[0;32mI (129) cpu_start: Pro cpu start user code[0m
+[0;32mI (130) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (130) app_init: Application information:[0m
+[0;32mI (130) app_init: Project name:     P085-proj[0m
+[0;32mI (134) app_init: App version:      fb1720b-dirty[0m
+[0;32mI (138) app_init: Compile time:     May 15 2025 20:08:30[0m
+[0;32mI (143) app_init: ELF file SHA256:  9397a0b20...[0m
+[0;32mI (147) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (151) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (155) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (159) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (163) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (169) heap_init: At 4080DC80 len 0006E990 (442 KiB): RAM[0m
+[0;32mI (174) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (179) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (186) spi_flash: detected chip: generic[0m
+[0;32mI (189) spi_flash: flash io: dio[0m
+[0;33mW (192) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (204) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (210) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (217) coexist: coex firmware version: e727207[0m
+[0;32mI (221) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (225) main_task: Started on CPU0[0m
+[0;32mI (225) main_task: Calling app_main()[0m
+[0;32mI (225) 啦啦啦: 没出错[0m
+[1;31mE (2225) i2c.master: I2C transaction timeout detected[0m
+[1;31mE (2225) i2c.master: s_i2c_synchronous_transaction(924): I2C transaction failed[0m
+[1;31mE (2225) i2c.master: i2c_master_multi_buffer_transmit(1186): I2C transaction failed[0m
+ESP_ERROR_CHECK failed: esp_err_t 0x103 (ESP_ERR_INVALID_STATE) at 0x4200bcfc
+file: "./main/src/ens210.c" line 100
+func: ens_write_sys_ctrl
+expression: i2c_master_transmit(dev_handle,reg_data,sizeof(reg_data),-1)
+
+abort() was called at PC 0x408057eb on core 0
+Core  0 register dump:
+MEPC    : 0x40800966  RA      : 0x408057f6  SP      : 0x40810b30  GP      : 0x4080bdc4  
+TP      : 0x40810c50  T0      : 0x37363534  T1      : 0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000004  S1      : 0x40810b94  A0      : 0x40810b5c  A1      : 0x40810b92  
+A2      : 0x00000000  A3      : 0x40810b89  A4      : 0x00000001  A5      : 0x4080e000  
+A6      : 0x00000000  A7      : 0x76757473  S2      : 0x00000000  S3      : 0x00000000  
+S4      : 0x00000000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4      : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+panic_abort (details=details@entry=0x40810b5c "abort() was called at PC 0x408057eb on core 0") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+468	    asm("unimp");   // should be an invalid operation on RISC-V targets
+#0  panic_abort (details=details@entry=0x40810b5c "abort() was called at PC 0x408057eb on core 0") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+#1  0x408057f6 in esp_system_abort (details=details@entry=0x40810b5c "abort() was called at PC 0x408057eb on core 0") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:87
+#2  0x4080a430 in abort () at /home/yizhihuyao/esp32/esp-idf/components/newlib/abort.c:38
+#3  0x408057ee in _esp_error_check_failed (rc=<optimized out>, file=file@entry=0x4201adc0 "", line=line@entry=100, function=function@entry=0x42020bac <__func__.0> "", expression=expression@entry=0x4201ae80 "") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/esp_err.c:49
+#4  0x4200bd00 in ens_write_sys_ctrl (value=value@entry=0 '\000') at /home/yizhihuyao/esp32/proj/P085-proj/main/src/ens210.c:100
+#5  0x4200bb02 in app_main () at /home/yizhihuyao/esp32/proj/P085-proj/main/P085_proj.c:26
+#6  0x4201565c in main_task (args=<error reading variable: value has been optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/freertos/app_startup.c:208
+#7  0x408067c0 in vPortTaskWrapper (pxCode=<optimized out>, pvParameters=<optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/port.c:255
+
+
+
+ELF file SHA256: 9397a0b20
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x16b8
+load:0x4086c110,len:0xe84
+load:0x4086e610,len:0x3058
+entry 0x4086c11a
+[0;32mI (13) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (14) boot: compile time May 15 2025 20:08:40[0m
+[0;32mI (15) boot: chip revision: v0.2[0m
+[0;32mI (15) boot: efuse block revision: v0.3[0m
+[0;32mI (17) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (21) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (25) boot.esp32c6: SPI Flash Size : 2MB[0m
+[0;32mI (28) boot: Enabling RNG early entropy source...[0m
+[0;32mI (33) boot: Partition Table:[0m
+[0;32mI (35) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (42) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (48) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (55) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (62) boot: End of partition table[0m
+[0;32mI (65) esp_image: segment 0: paddr=00010020 vaddr=42018020 size=0a048h ( 41032) map[0m
+[0;32mI (87) esp_image: segment 1: paddr=0001a070 vaddr=40800000 size=05fa8h ( 24488) load[0m
+[0;32mI (99) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=1595ch ( 88412) map[0m
+[0;32mI (133) esp_image: segment 3: paddr=00035984 vaddr=40805fa8 size=05618h ( 22040) load[0m
+[0;32mI (143) esp_image: segment 4: paddr=0003afa4 vaddr=4080b5c0 size=01738h (  5944) load[0m
+[0;32mI (153) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (154) boot: Disabling RNG early entropy source...[0m
+[0;32mI (163) cpu_start: Unicore app[0m
+[0;32mI (172) cpu_start: Pro cpu start user code[0m
+[0;32mI (172) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (173) app_init: Application information:[0m
+[0;32mI (173) app_init: Project name:     P085-proj[0m
+[0;32mI (176) app_init: App version:      fb1720b-dirty[0m
+[0;32mI (181) app_init: Compile time:     May 15 2025 20:08:30[0m
+[0;32mI (186) app_init: ELF file SHA256:  9397a0b20...[0m
+[0;32mI (190) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (194) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (198) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (202) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (206) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (212) heap_init: At 4080DC80 len 0006E990 (442 KiB): RAM[0m
+[0;32mI (217) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (222) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (228) spi_flash: detected chip: generic[0m
+[0;32mI (231) spi_flash: flash io: dio[0m
+[0;33mW (234) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (247) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (253) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (259) coexist: coex firmware version: e727207[0m
+[0;32mI (264) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (268) main_task: Started on CPU0[0m
+[0;32mI (268) main_task: Calling app_main()[0m
+[0;32mI (268) 啦啦啦: 没出错[0m
+[1;31mE (2268) i2c.master: I2C transaction timeout detected[0m
+[1;31mE (2268) i2c.master: s_i2c_synchronous_transaction(924): I2C transaction failed[0m
+[1;31mE (2268) i2c.master: i2c_master_multi_buffer_transmit(1186): I2C transaction failed[0m
+ESP_ERROR_CHECK failed: esp_err_t 0x103 (ESP_ERR_INVALID_STATE) at 0x4200bcfc
+file: "./main/src/ens210.c" line 100
+func: ens_write_sys_ctrl
+expression: i2c_master_transmit(dev_handle,reg_data,sizeof(reg_data),-1)
+
+abort() was called at PC 0x408057eb on core 0
+Core  0 register dump:
+MEPC    : 0x40800966  RA      : 0x408057f6  SP      : 0x40810b30  GP      : 0x4080bdc4  
+TP      : 0x40810c50  T0      : 0x37363534  T1      : 0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000004  S1      : 0x40810b94  A0      : 0x40810b5c  A1      : 0x40810b92  
+A2      : 0x00000000  A3      : 0x40810b89  A4      : 0x00000001  A5      : 0x4080e000  
+A6      : 0x00000000  A7      : 0x76757473  S2      : 0x00000000  S3      : 0x00000000  
+S4      : 0x00000000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4      : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+panic_abort (details=details@entry=0x40810b5c "abort() was called at PC 0x408057eb on core 0") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+468	    asm("unimp");   // should be an invalid operation on RISC-V targets
+#0  panic_abort (details=details@entry=0x40810b5c "abort() was called at PC 0x408057eb on core 0") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+#1  0x408057f6 in esp_system_abort (details=details@entry=0x40810b5c "abort() was called at PC 0x408057eb on core 0") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:87
+#2  0x4080a430 in abort () at /home/yizhihuyao/esp32/esp-idf/components/newlib/abort.c:38
+#3  0x408057ee in _esp_error_check_failed (rc=<optimized out>, file=file@entry=0x4201adc0 "", line=line@entry=100, function=function@entry=0x42020bac <__func__.0> "", expression=expression@entry=0x4201ae80 "") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/esp_err.c:49
+#4  0x4200bd00 in ens_write_sys_ctrl (value=value@entry=0 '\000') at /home/yizhihuyao/esp32/proj/P085-proj/main/src/ens210.c:100
+#5  0x4200bb02 in app_main () at /home/yizhihuyao/esp32/proj/P085-proj/main/P085_proj.c:26
+#6  0x4201565c in main_task (args=<error reading variable: value has been optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/freertos/app_startup.c:208
+#7  0x408067c0 in vPortTaskWrapper (pxCode=<optimized out>, pvParameters=<optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/port.c:255
+
+
+
+ELF file SHA256: 9397a0b20
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x16b8
+load:0x4086c110,len:0xe84
+load:0x4086e610,len:0x3058
+entry 0x4086c11a
+[0;32mI (13) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (14) boot: compile time May 15 2025 20:08:40[0m
+[0;32mI (15) boot: chip revision: v0.2[0m
+[0;32mI (15) boot: efuse block revision: v0.3[0m
+[0;32mI (17) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (21) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (25) boot.esp32c6: SPI Flash Size : 2MB[0m
+[0;32mI (28) boot: Enabling RNG early entropy source...[0m
+[0;32mI (33) boot: Partition Table:[0m
+[0;32mI (35) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (42) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (48) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (55) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (61) boot: End of partition table[0m
+[0;32mI (65) esp_image: segment 0: paddr=00010020 vaddr=42018020 size=0a048h ( 41032) map[0m
+[0;32mI (87) esp_image: segment 1: paddr=0001a070 vaddr=40800000 size=05fa8h ( 24488) load[0m
+[0;32mI (99) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=1595ch ( 88412) map[0m
+[0;32mI (133) esp_image: segment 3: paddr=00035984 vaddr=40805fa8 size=05618h ( 22040) load[0m
+[0;32mI (143) esp_image: segment 4: paddr=0003afa4 vaddr=4080b5c0 size=01738h (  5944) load[0m
+[0;32mI (153) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (153) boot: Disabling RNG early entropy source...[0m
+[0;32mI (163) cpu_start: Unicore app[0m
+[0;32mI (172) cpu_start: Pro cpu start user code[0m
+[0;32mI (172) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (173) app_init: Application information:[0m
+[0;32mI (173) app_init: Project name:     P085-proj[0m
+[0;32mI (176) app_init: App version:      fb1720b-dirty[0m
+[0;32mI (181) app_init: Compile time:     May 15 2025 20:08:30[0m
+[0;32mI (186) app_init: ELF file SHA256:  9397a0b20...[0m
+[0;32mI (190) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (194) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (198) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (202) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (206) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (212) heap_init: At 4080DC80 len 0006E990 (442 KiB): RAM[0m
+[0;32mI (217) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (222) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (228) spi_flash: detected chip: generic[0m
+[0;32mI (231) spi_flash: flash io: dio[0m
+[0;33mW (234) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (247) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (253) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (259) coexist: coex firmware version: e727207[0m
+[0;32mI (264) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (268) main_task: Started on CPU0[0m
+[0;32mI (268) main_task: Calling app_main()[0m
+[0;32mI (268) 啦啦啦: 没出错[0m
+[1;31mE (2268) i2c.master: I2C transaction timeout detected[0m
+[1;31mE (2268) i2c.master: s_i2c_synchronous_transaction(924): I2C transaction failed[0m
+[1;31mE (2268) i2c.master: i2c_master_multi_buffer_transmit(1186): I2C transaction failed[0m
+ESP_ERROR_CHECK failed: esp_err_t 0x103 (ESP_ERR_INVALID_STATE) at 0x4200bcfc
+file: "./main/src/ens210.c" line 100
+func: ens_write_sys_ctrl
+expression: i2c_master_transmit(dev_handle,reg_data,sizeof(reg_data),-1)
+
+abort() was called at PC 0x408057eb on core 0
+Core  0 register dump:
+MEPC    : 0x40800966  RA      : 0x408057f6  SP      : 0x40810b30  GP      : 0x4080bdc4  
+TP      : 0x40810c50  T0      : 0x37363534  T1      : 0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000004  S1      : 0x40810b94  A0      : 0x40810b5c  A1      : 0x40810b92  
+A2      : 0x00000000  A3      : 0x40810b89  A4      : 0x00000001  A5      : 0x4080e000  
+A6      : 0x00000000  A7      : 0x76757473  S2      : 0x00000000  S3      : 0x00000000  
+S4      : 0x00000000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4      : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+panic_abort (details=details@entry=0x40810b5c "abort() was called at PC 0x408057eb on core 0") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+468	    asm("unimp");   // should be an invalid operation on RISC-V targets
+#0  panic_abort (details=details@entry=0x40810b5c "abort() was called at PC 0x408057eb on core 0") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+#1  0x408057f6 in esp_system_abort (details=details@entry=0x40810b5c "abort() was called at PC 0x408057eb on core 0") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:87
+#2  0x4080a430 in abort () at /home/yizhihuyao/esp32/esp-idf/components/newlib/abort.c:38
+#3  0x408057ee in _esp_error_check_failed (rc=<optimized out>, file=file@entry=0x4201adc0 "", line=line@entry=100, function=function@entry=0x42020bac <__func__.0> "", expression=expression@entry=0x4201ae80 "") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/esp_err.c:49
+#4  0x4200bd00 in ens_write_sys_ctrl (value=value@entry=0 '\000') at /home/yizhihuyao/esp32/proj/P085-proj/main/src/ens210.c:100
+#5  0x4200bb02 in app_main () at /home/yizhihuyao/esp32/proj/P085-proj/main/P085_proj.c:26
+#6  0x4201565c in main_task (args=<error reading variable: value has been optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/freertos/app_startup.c:208
+#7  0x408067c0 in vPortTaskWrapper (pxCode=<optimized out>, pvParameters=<optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/portable/riscv/port.c:255
+
+40810e10: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+40810e30: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+40810e50: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+40810e70: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+40810e90: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+40810eb0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+40810ed0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+40810ef0: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+40810f10: 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5 0xa5a5a5a5
+
+
+
+ELF file SHA256: 9397a0b20
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x16b8
+load:0x4086c110,len:0xe84
+load:0x4086e610,len:0x3058
+entry 0x4086c11a
+[0;32mI (13) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (14) boot: compile time May 15 2025 20:08:40[0m
+[0;32mI (15) boot: chip revision: v0.2[0m
+[0;32mI (15) boot: efuse block revision: v0.3[0m
+[0;32mI (17) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (21) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (25) boot.esp32c6: SPI Flash Size : 2MB[0m
+[0;32mI (28) boot: Enabling RNG early entropy source...[0m
+[0;32mI (33) boot: Partition Table:[0m
+[0;32mI (35) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (42) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (48) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (55) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (61) boot: End of partition table[0m
+[0;32mI (65) esp_image: segment 0: paddr=00010020 vaddr=42018020 size=0a048h ( 41032) map[0m
+[0;32mI (87) esp_image: segment 1: paddr=0001a070 vaddr=40800000 size=05fa8h ( 24488) load[0m
+[0;32mI (99) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=1595ch ( 88412) map[0m
+[0;32mI (133) esp_image: segment 3: paddr=00035984 vaddr=40805fa8 size=05618h ( 22040) load[0m
+[0;32mI (143) esp_image: segment 4: paddr=0003afa4 vaddr=4080b5c0 size=01738h (  5944) load[0m
+[0;32mI (153) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (153) boot: Disabling RNG early entropy source...[0m
+[0;32mI (163) cpu_start: Unicore app[0m
+[0;32mI (172) cpu_start: Pro cpu start user code[0m
+[0;32mI (172) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (173) app_init: Application information:[0m
+[0;32mI (173) app_init: Project name:     P085-proj[0m
+[0;32mI (176) app_init: App version:      fb1720b-dirty[0m
+[0;32mI (181) app_init: Compile time:     May 15 2025 20:08:30[0m
+[0;32mI (186) app_init: ELF file SHA256:  9397a0b20...[0m
+[0;32mI (190) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (194) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (198) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (202) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (206) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (212) heap_init: At 4080DC80 len 0006E990 (442 KiB): RAM[0m
+[0;32mI (217) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (222) heap_init: At 50000000 len 00003FE8 (15 KiB): RTCRAM[0m
+[0;32mI (228) spi_flash: detected chip: generic[0m
+[0;32mI (231) spi_flash: flash io: dio[0m
+[0;33mW (234) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (247) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (253) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (259) coexist: coex firmware version: e727207[0m
+[0;32mI (264) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (268) main_task: Started on CPU0[0m
+[0;32mI (268) main_task: Calling app_main()[0m
+[0;32mI (268) 啦啦啦: 没出错[0m
