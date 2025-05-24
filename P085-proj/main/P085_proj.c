@@ -4,30 +4,30 @@
 #include "button.h"
 #include "P085_drv.h"
 #include "ens210.h"
+#include "ntc.h"
+#include "esp_adc/adc_continuous.h"
+#include "id.h"
 
 #define TAG "啦啦啦"
 
 void app_main(void)
 {
-    
-    uint8_t value = 0b1;
-    uint8_t uid[8] = {0};
-    ESP_LOGI(TAG,"开始测试");
+    ESP_LOGE(TAG, "--------------------------------------开始测试--------------------------------------");
+    led_init();//LED初始化
+    btn_init();//按键初始化
+    id_init();//id初始化
+    i2c_master_init(); // i2c初始化
+    ntc_adc_init();//ntc初始化
 
-    // led_init();//LED初始化
+    test_task();
 
-    // btn_init();//按键初始化
-   
-    // test_task();
+    // uint8_t buf [8];
+    // uint16_t buf_len = 8;
+    // ntc_adc_init();
+    // float ret = get_voltage(buf,buf_len);
+    // ESP_LOGE(TAG,"电压值：%.2fV",ret);
+    // float temp = get_temperature(ret);
+    // ESP_LOGE(TAG,"temp:%.2f",temp);
 
-    i2c_master_init();//i2c初始化
-    vTaskDelay(pdMS_TO_TICKS(2000));
-    ens_write_sens_start(value);
-    ens_read_uid(uid);
-
-    // djahd_init();
-    // sys_ctrl();
-    // esp_err_t ret = get_uid();
-    // ESP_LOGI(TAG, "UID:%x",ret);
 
 }

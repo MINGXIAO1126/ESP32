@@ -5,6 +5,12 @@
     "cstdint": "cpp",
     "param.h": "c",
     "i2c_hal.h": "c",
-    "i2c_master.h": "c"
-  }
+    "i2c_master.h": "c",
+    "*.inc": "c",
+    "esp_log.h": "c",
+    "adc_continuous.h": "c",
+    "p085_drv.h": "c",
+    "ens210.h": "c"
+  },
+  "Codegeex.GenerationPreference": "line by line"
 }

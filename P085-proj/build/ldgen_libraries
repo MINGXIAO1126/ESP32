@@ -82,4 +82,6 @@
 /home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/rt/librt.a
 /home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/spiffs/libspiffs.a
 /home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
+/home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/espressif__esp-modbus/libespressif__esp-modbus.a
+/home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/mb_example_common/libmb_example_common.a
 /home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/main/libmain.a

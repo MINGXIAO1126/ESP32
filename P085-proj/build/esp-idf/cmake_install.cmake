@@ -544,6 +544,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/espressif__esp-modbus/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/mb_example_common/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/main/cmake_install.cmake")
 endif()
 
