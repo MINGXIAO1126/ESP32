@@ -1,0 +1,111 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32c6
+NOTICE: Using component placed at /home/yizhihuyao/esp32/esp-idf/examples/protocols/modbus/mb_example_common for dependency "mb_example_common", specified in /home/yizhihuyao/esp32/proj/P085-proj/main/idf_component.yml
+NOTICE: Processing 3 dependencies:
+NOTICE: [1/3] espressif/esp-modbus (1.0.18)
+NOTICE: [2/3] mb_example_common (*) (/home/yizhihuyao/esp32/esp-idf/examples/protocols/modbus/mb_example_common)
+NOTICE: [3/3] idf (5.4.1)
+-- DEBUG: Use esp-modbus component folder: /home/yizhihuyao/esp32/proj/P085-proj/managed_components/espressif__esp-modbus.
+-- Project sdkconfig file /home/yizhihuyao/esp32/proj/P085-proj/sdkconfig
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/riscv/ld/rom.api.ld
+-- App "P085-proj" version: 1aa86e9-dirty
+-- Adding linker script /home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.api.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.rvfp.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.wdt.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.systimer.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.version.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.phy.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.coexist.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.net80211.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.pp.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.newlib.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.newlib-normal.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.heap.ld
+-- Adding linker script /home/yizhihuyao/esp32/esp-idf/components/soc/esp32c6/ld/esp32c6.peripherals.ld
+-- DEBUG: Use esp-modbus component folder: /home/yizhihuyao/esp32/proj/P085-proj/managed_components/espressif__esp-modbus.
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_bootloader_format esp_coex esp_common esp_driver_ana_cmpr esp_driver_cam esp_driver_dac esp_driver_gpio esp_driver_gptimer esp_driver_i2c esp_driver_i2s esp_driver_isp esp_driver_jpeg esp_driver_ledc esp_driver_mcpwm esp_driver_parlio esp_driver_pcnt esp_driver_ppa esp_driver_rmt esp_driver_sdio esp_driver_sdm esp_driver_sdmmc esp_driver_sdspi esp_driver_spi esp_driver_touch_sens esp_driver_tsens esp_driver_uart esp_driver_usb_serial_jtag esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_security esp_system esp_timer esp_vfs_console esp_wifi espcoredump espressif__esp-modbus esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mb_example_common mbedtls mqtt newlib nvs_flash nvs_sec_provider openthread partition_table protobuf-c protocomm pthread riscv rt sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant
+-- Component paths: /home/yizhihuyao/esp32/esp-idf/components/app_trace /home/yizhihuyao/esp32/esp-idf/components/app_update /home/yizhihuyao/esp32/esp-idf/components/bootloader /home/yizhihuyao/esp32/esp-idf/components/bootloader_support /home/yizhihuyao/esp32/esp-idf/components/bt /home/yizhihuyao/esp32/esp-idf/components/cmock /home/yizhihuyao/esp32/esp-idf/components/console /home/yizhihuyao/esp32/esp-idf/components/cxx /home/yizhihuyao/esp32/esp-idf/components/driver /home/yizhihuyao/esp32/esp-idf/components/efuse /home/yizhihuyao/esp32/esp-idf/components/esp-tls /home/yizhihuyao/esp32/esp-idf/components/esp_adc /home/yizhihuyao/esp32/esp-idf/components/esp_app_format /home/yizhihuyao/esp32/esp-idf/components/esp_bootloader_format /home/yizhihuyao/esp32/esp-idf/components/esp_coex /home/yizhihuyao/esp32/esp-idf/components/esp_common /home/yizhihuyao/esp32/esp-idf/components/esp_driver_ana_cmpr /home/yizhihuyao/esp32/esp-idf/components/esp_driver_cam /home/yizhihuyao/esp32/esp-idf/components/esp_driver_dac /home/yizhihuyao/esp32/esp-idf/components/esp_driver_gpio /home/yizhihuyao/esp32/esp-idf/components/esp_driver_gptimer /home/yizhihuyao/esp32/esp-idf/components/esp_driver_i2c /home/yizhihuyao/esp32/esp-idf/components/esp_driver_i2s /home/yizhihuyao/esp32/esp-idf/components/esp_driver_isp /home/yizhihuyao/esp32/esp-idf/components/esp_driver_jpeg /home/yizhihuyao/esp32/esp-idf/components/esp_driver_ledc /home/yizhihuyao/esp32/esp-idf/components/esp_driver_mcpwm /home/yizhihuyao/esp32/esp-idf/components/esp_driver_parlio /home/yizhihuyao/esp32/esp-idf/components/esp_driver_pcnt /home/yizhihuyao/esp32/esp-idf/components/esp_driver_ppa /home/yizhihuyao/esp32/esp-idf/components/esp_driver_rmt /home/yizhihuyao/esp32/esp-idf/components/esp_driver_sdio /home/yizhihuyao/esp32/esp-idf/components/esp_driver_sdm /home/yizhihuyao/esp32/esp-idf/components/esp_driver_sdmmc /home/yizhihuyao/esp32/esp-idf/components/esp_driver_sdspi /home/yizhihuyao/esp32/esp-idf/components/esp_driver_spi /home/yizhihuyao/esp32/esp-idf/components/esp_driver_touch_sens /home/yizhihuyao/esp32/esp-idf/components/esp_driver_tsens /home/yizhihuyao/esp32/esp-idf/components/esp_driver_uart /home/yizhihuyao/esp32/esp-idf/components/esp_driver_usb_serial_jtag /home/yizhihuyao/esp32/esp-idf/components/esp_eth /home/yizhihuyao/esp32/esp-idf/components/esp_event /home/yizhihuyao/esp32/esp-idf/components/esp_gdbstub /home/yizhihuyao/esp32/esp-idf/components/esp_hid /home/yizhihuyao/esp32/esp-idf/components/esp_http_client /home/yizhihuyao/esp32/esp-idf/components/esp_http_server /home/yizhihuyao/esp32/esp-idf/components/esp_https_ota /home/yizhihuyao/esp32/esp-idf/components/esp_https_server /home/yizhihuyao/esp32/esp-idf/components/esp_hw_support /home/yizhihuyao/esp32/esp-idf/components/esp_lcd /home/yizhihuyao/esp32/esp-idf/components/esp_local_ctrl /home/yizhihuyao/esp32/esp-idf/components/esp_mm /home/yizhihuyao/esp32/esp-idf/components/esp_netif /home/yizhihuyao/esp32/esp-idf/components/esp_netif_stack /home/yizhihuyao/esp32/esp-idf/components/esp_partition /home/yizhihuyao/esp32/esp-idf/components/esp_phy /home/yizhihuyao/esp32/esp-idf/components/esp_pm /home/yizhihuyao/esp32/esp-idf/components/esp_psram /home/yizhihuyao/esp32/esp-idf/components/esp_ringbuf /home/yizhihuyao/esp32/esp-idf/components/esp_rom /home/yizhihuyao/esp32/esp-idf/components/esp_security /home/yizhihuyao/esp32/esp-idf/components/esp_system /home/yizhihuyao/esp32/esp-idf/components/esp_timer /home/yizhihuyao/esp32/esp-idf/components/esp_vfs_console /home/yizhihuyao/esp32/esp-idf/components/esp_wifi /home/yizhihuyao/esp32/esp-idf/components/espcoredump /home/yizhihuyao/esp32/proj/P085-proj/managed_components/espressif__esp-modbus /home/yizhihuyao/esp32/esp-idf/components/esptool_py /home/yizhihuyao/esp32/esp-idf/components/fatfs /home/yizhihuyao/esp32/esp-idf/components/freertos /home/yizhihuyao/esp32/esp-idf/components/hal /home/yizhihuyao/esp32/esp-idf/components/heap /home/yizhihuyao/esp32/esp-idf/components/http_parser /home/yizhihuyao/esp32/esp-idf/components/idf_test /home/yizhihuyao/esp32/esp-idf/components/ieee802154 /home/yizhihuyao/esp32/esp-idf/components/json /home/yizhihuyao/esp32/esp-idf/components/log /home/yizhihuyao/esp32/esp-idf/components/lwip /home/yizhihuyao/esp32/proj/P085-proj/main /home/yizhihuyao/esp32/esp-idf/examples/protocols/modbus/mb_example_common /home/yizhihuyao/esp32/esp-idf/components/mbedtls /home/yizhihuyao/esp32/esp-idf/components/mqtt /home/yizhihuyao/esp32/esp-idf/components/newlib /home/yizhihuyao/esp32/esp-idf/components/nvs_flash /home/yizhihuyao/esp32/esp-idf/components/nvs_sec_provider /home/yizhihuyao/esp32/esp-idf/components/openthread /home/yizhihuyao/esp32/esp-idf/components/partition_table /home/yizhihuyao/esp32/esp-idf/components/protobuf-c /home/yizhihuyao/esp32/esp-idf/components/protocomm /home/yizhihuyao/esp32/esp-idf/components/pthread /home/yizhihuyao/esp32/esp-idf/components/riscv /home/yizhihuyao/esp32/esp-idf/components/rt /home/yizhihuyao/esp32/esp-idf/components/sdmmc /home/yizhihuyao/esp32/esp-idf/components/soc /home/yizhihuyao/esp32/esp-idf/components/spi_flash /home/yizhihuyao/esp32/esp-idf/components/spiffs /home/yizhihuyao/esp32/esp-idf/components/tcp_transport /home/yizhihuyao/esp32/esp-idf/components/ulp /home/yizhihuyao/esp32/esp-idf/components/unity /home/yizhihuyao/esp32/esp-idf/components/usb /home/yizhihuyao/esp32/esp-idf/components/vfs /home/yizhihuyao/esp32/esp-idf/components/wear_levelling /home/yizhihuyao/esp32/esp-idf/components/wifi_provisioning /home/yizhihuyao/esp32/esp-idf/components/wpa_supplicant
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yizhihuyao/esp32/proj/P085-proj/build
+[1/21] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/src/RJ12.c.obj
+[2/21] Performing build step for 'bootloader'
+[1/1] cd /home/yizhihuyao/esp32/proj/P085-proj/build/bootloader/esp-idf/esptool_py && /home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/bin/python /home/yizhihuyao/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/yizhihuyao/esp32/proj/P085-proj/build/bootloader/bootloader.bin
+Bootloader binary size 0x3780 bytes. 0x4880 bytes (57%) free.
+[3/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/P085_drv.c.obj
+[4/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/src/button.c.obj
+[5/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/src/ens210.c.obj
+[6/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/src/id.c.obj
+[7/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/P085_proj.c.obj
+[8/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/src/led.c.obj
+[9/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/src/RS485.c.obj
+[10/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/src/ntc.c.obj
+/home/yizhihuyao/esp32/proj/P085-proj/main/src/ntc.c: In function 'get_voltage':
+/home/yizhihuyao/esp32/proj/P085-proj/main/src/ntc.c:94:14: warning: unused variable 'channel_num' [-Wunused-variable]
+   94 |     uint32_t channel_num = NTC_ADC_GET_CHANNEL(p);
+      |              ^~~~~~~~~~~
+[11/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/src/RS485_master.c.obj
+/home/yizhihuyao/esp32/proj/P085-proj/main/src/RS485_master.c:76:14: warning: 'master_get_param_data' defined but not used [-Wunused-function]
+   76 | static void* master_get_param_data(const mb_parameter_descriptor_t* param_descriptor)
+      |              ^~~~~~~~~~~~~~~~~~~~~
+/home/yizhihuyao/esp32/proj/P085-proj/main/src/RS485_master.c:44:18: warning: 'master_init' defined but not used [-Wunused-function]
+   44 | static esp_err_t master_init(void)
+      |                  ^~~~~~~~~~~
+[12/19] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/src/RS485_slave.c.obj
+[13/19] Linking C static library esp-idf/main/libmain.a
+[14/19] Generating ld/sections.ld
+[15/19] Building C object CMakeFiles/P085-proj.elf.dir/project_elf_src_esp32c6.c.obj
+[16/19] Linking CXX executable P085-proj.elf
+[17/19] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32c6 image...
+Merged 1 ELF section
+Successfully created esp32c6 image.
+Generated /home/yizhihuyao/esp32/proj/P085-proj/build/P085-proj.bin
+[18/19] cd /home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/esptool_py && /home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/bin/python /home/yizhihuyao/esp32/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/yizhihuyao/esp32/proj/P085-proj/build/partition_table/partition-table.bin /home/yizhihuyao/esp32/proj/P085-proj/build/P085-proj.bin
+P085-proj.bin binary size 0x33f50 bytes. Smallest app partition is 0x100000 bytes. 0xcc0b0 bytes (80%) free.
+[18/19] cd /home/yizhihuyao/esp32/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/yizhihuyao/esp32/esp-idf -D "SERIAL_TOOL=/home/yizhihuyao/.espressif/python_env/idf5.4_py3.10_env/bin/python;;/home/yizhihuyao/esp32/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c6" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/yizhihuyao/esp32/proj/P085-proj/build -P /home/yizhihuyao/esp32/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32c6 -p /dev/ttyACM0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 P085-proj.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.8.1
+Serial port /dev/ttyACM0
+Connecting...
+Chip is ESP32-C6FH4 (QFN32) (revision v0.2)
+Features: WiFi 6, BT 5, IEEE802.15.4
+Crystal is 40MHz
+MAC: 7c:2c:67:ff:fe:5f:c6:8c
+BASE MAC: 7c:2c:67:5f:c6:8c
+MAC_EXT: ff:fe
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00003fff...
+Flash will be erased from 0x00010000 to 0x00043fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 14208 bytes to 10104...
+Writing at 0x00000000... (100 %)
+Wrote 14208 bytes (10104 compressed) at 0x00000000 in 0.1 seconds (effective 1022.9 kbit/s)...
+Hash of data verified.
+Compressed 212816 bytes to 108331...
+Writing at 0x00010000... (14 %)
+Writing at 0x0001b75a... (28 %)
+Writing at 0x00021e22... (42 %)
+Writing at 0x00029066... (57 %)
+Writing at 0x000312f9... (71 %)
+Writing at 0x00038281... (85 %)
+Writing at 0x0003f31e... (100 %)
+Wrote 212816 bytes (108331 compressed) at 0x00010000 in 0.7 seconds (effective 2272.2 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 1273.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

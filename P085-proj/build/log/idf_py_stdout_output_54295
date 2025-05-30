@@ -1,0 +1,133 @@
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4200c032
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x538
+load:0x4086c110,len:0xbf0
+load:0x4086e610,len:0x2604
+entry 0x4086c110
+[1;31mE (61) 啦啦啦: --------------------------------------开始测试--------------------------------------[0m
+[1;31mE (161) i2c.master: I2C transaction timeout detected[0m
+[1;31mE (161) i2c.master: probe device timeout. Please check if xfer_timeout_ms and pull-ups are correctly set up[0m
+[1;31mE (161) ENS传感器: 没有发现设备 Error: ESP_ERR_TIMEOUT[0m
+[1;31mE (191) ID: ID:000[0m
+[1;31mE (191) ID: Board ID:ID0[0m
+[1;31mE (201) i2c.master: I2C hardware timeout detected[0m
+[1;31mE (201) i2c.master: s_i2c_synchronous_transaction(924): I2C transaction failed[0m
+[1;31mE (201) i2c.master: i2c_master_multi_buffer_transmit(1186): I2C transaction failed[0m
+[1;31mE (211) 哈哈哈: 热敏电阻--temp:35.39[0m
+[1;31mE (3211) 哈哈哈: 热敏电阻--temp:35.39[0m
+[1;31mE (4221) 哈哈哈: RST 高[0m
+[1;31mE (5151) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (5151) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (5151) task_wdt: Tasks currently running:[0m
+[1;31mE (5151) task_wdt: CPU 0: led task[0m
+[1;31mE (5151) task_wdt: Print CPU 0 (current core) backtrace[0m
+esp_backtrace_print: Print CPU 0 (current core) registers
+Core  0 register dump:
+MEPC    : 0x4200d516  RA      : 0x4200c024  SP      : 0x408167d0  GP      : 0x4080d6d4  
+TP      : 0x40816860  T0      : 0x00000000  T1      : 0x00000000  T2      : 0x00000000  
+S0/FP   : 0x00000000  S1      : 0x00000000  A0      : 0x00000000  A1      : 0x00000000  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x00008000  A5      : 0x60091000  
+A6      : 0x00000000  A7      : 0x00000000  S2      : 0x00000000  S3      : 0x00000000  
+S4      : 0x00000000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000000  T4      : 0x00000000  T5      : 0x00000000  T6      : 0x00000000  
+MSTATUS : 0x00001889  MTVEC   : 0x40800001  MCAUSE  : 0xdeadc0de  MTVAL   : 0xdeadc0de  
+MHARTID : 0x00000000  
+[1;31mE (6211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (8221) 哈哈哈: RST 高[0m
+[1;31mE (9211) 哈哈哈: 热敏电阻--temp:35.48[0m
+[1;31mE (10151) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[1;31mE (10151) task_wdt:  - IDLE (CPU 0)[0m
+[1;31mE (10151) task_wdt: Tasks currently running:[0m
+[1;31mE (10151) task_wdt: CPU 0: led task[0m
+[1;31mE (10151) task_wdt: Print CPU 0 (current core) backtrace[0m
+esp_backtrace_print: Print CPU 0 (current core) registers
+Core  0 register dump:
+MEPC    : 0x4200d516  RA      : 0x4200c024  SP      : 0x408167d0  GP      : 0x4080d6d4  
+TP      : 0x40816860  T0      : 0x00000000  T1      : 0x00000000  T2      : 0x00000000  
+S0/FP   : 0x00000000  S1      : 0x00000000  A0      : 0x00000000  A1      : 0x00000000  
+A2      : 0x00000000  A3      : 0x00000000  A4      : 0x00008000  A5      : 0x60091000  
+A6      : 0x00000000  A7      : 0x00000000  S2      : 0x00000000  S3      : 0x00000000  
+S4      : 0x00000000  S5      : 0x00000000  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x00000000  T4      : 0x00000000  T5      : 0x00000000  T6      : 0x00000000  
+MSTATUS : 0x00001889  MTVEC   : 0x40800001  MCAUSE  : 0xdeadc0de  MTVAL   : 0xdeadc0de  
+MHARTID : 0x00000000  
+[1;31mE (12131) 按键: 短按[0m
+[1;31mE (12211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (12251) 哈哈哈: RST 高[0m
+[1;31mE (13211) 按键: 短按[0m
+[1;31mE (13891) 按键: 短按[0m
+[1;31mE (14011) 哈哈哈: 双击[0m
+[1;31mE (14741) 按键: 短按[0m
+[1;31mE (15211) 哈哈哈: 热敏电阻--temp:35.39[0m
+[1;31mE (16251) 哈哈哈: RST 高[0m
+[1;31mE (18211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (18821) 按键: 短按[0m
+[1;31mE (19981) 按键: 短按[0m
+[1;31mE (20251) 哈哈哈: RST 高[0m
+[1;31mE (20891) 按键: 短按[0m
+[1;31mE (21211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (21551) 按键: 短按[0m
+[1;31mE (22471) 按键: 短按[0m
+[1;31mE (23261) 按键: 短按[0m
+[1;31mE (23851) 按键: 短按[0m
+[1;31mE (24211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (24251) 哈哈哈: RST 高[0m
+[1;31mE (24471) 按键: 短按[0m
+[1;31mE (25201) 按键: 短按[0m
+[1;31mE (25821) 按键: 短按[0m
+[1;31mE (26551) 按键: 短按[0m
+[1;31mE (27211) 哈哈哈: 热敏电阻--temp:35.35[0m
+[1;31mE (27251) 按键: 短按[0m
+[1;31mE (27281) 哈哈哈: 双击[0m
+[1;31mE (28251) 哈哈哈: RST 高[0m
+[1;31mE (30211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (32251) 哈哈哈: RST 高[0m
+[1;31mE (33211) 哈哈哈: 热敏电阻--temp:35.35[0m
+[1;31mE (36211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (36251) 哈哈哈: RST 高[0m
+[1;31mE (39211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (40251) 哈哈哈: RST 高[0m
+[1;31mE (42211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (44251) 哈哈哈: RST 高[0m
+[1;31mE (45211) 哈哈哈: 热敏电阻--temp:35.39[0m
+[1;31mE (48211) 哈哈哈: 热敏电阻--temp:35.48[0m
+[1;31mE (48251) 哈哈哈: RST 高[0m
+[1;31mE (51211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (52251) 哈哈哈: RST 高[0m
+[1;31mE (54211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (56251) 哈哈哈: RST 高[0m
+[1;31mE (57211) 哈哈哈: 热敏电阻--temp:35.39[0m
+[1;31mE (60211) 哈哈哈: 热敏电阻--temp:35.48[0m
+[1;31mE (60251) 哈哈哈: RST 高[0m
+[1;31mE (63211) 哈哈哈: 热敏电阻--temp:35.39[0m
+[1;31mE (64251) 哈哈哈: RST 高[0m
+[1;31mE (66211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (68251) 哈哈哈: RST 高[0m
+[1;31mE (69211) 哈哈哈: 热敏电阻--temp:35.48[0m
+[1;31mE (72211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (72251) 哈哈哈: RST 高[0m
+[1;31mE (75211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (76251) 哈哈哈: RST 高[0m
+[1;31mE (78211) 哈哈哈: 热敏电阻--temp:35.48[0m
+[1;31mE (80251) 哈哈哈: RST 高[0m
+[1;31mE (81211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (84211) 哈哈哈: 热敏电阻--temp:35.48[0m
+[1;31mE (84251) 哈哈哈: RST 高[0m
+[1;31mE (87211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (88251) 哈哈哈: RST 高[0m
+[1;31mE (90211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (92251) 哈哈哈: RST 高[0m
+[1;31mE (93211) 哈哈哈: 热敏电阻--temp:35.48[0m
+[1;31mE (96211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (96251) 哈哈哈: RST 高[0m
+[1;31mE (99211) 哈哈哈: 热敏电阻--temp:35.39[0m
+[1;31mE (100251) 哈哈哈: RST 高[0m
+[1;31mE (102211) 哈哈哈: 热敏电阻--temp:35.43[0m
+[1;31mE (104251) 哈哈哈: RST 高[0m
+[1;31mE (105211) 哈哈哈: 热敏电阻--temp:35.43[0m

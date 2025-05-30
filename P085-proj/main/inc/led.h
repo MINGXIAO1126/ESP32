@@ -2,7 +2,9 @@
 #define __LED_H_
 
 void led_init(void);//led初始化
-void Rgb_led_flashing();//led灯三色循环闪烁
-void turn_of_light(void);//关灯
+void rgb_led_on(void);//开灯
+void rgb_led_off(void);//关灯
+void rgb_led_flash(void);//流水灯
+void rgb_led_light(void);//红绿蓝三色灯
 
 #endif

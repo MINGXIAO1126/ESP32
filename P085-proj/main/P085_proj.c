@@ -7,8 +7,13 @@
 #include "ntc.h"
 #include "esp_adc/adc_continuous.h"
 #include "id.h"
+#include "RS485.h"
+#include "driver/gpio.h"
+#include "freertos/FreeRTOS.h"
+#include "RJ12.h"
 
 #define TAG "啦啦啦"
+
 
 void app_main(void)
 {
@@ -18,16 +23,31 @@ void app_main(void)
     id_init();//id初始化
     i2c_master_init(); // i2c初始化
     ntc_adc_init();//ntc初始化
+    rj_init();//rj初始化
 
     test_task();
 
-    // uint8_t buf [8];
-    // uint16_t buf_len = 8;
-    // ntc_adc_init();
-    // float ret = get_voltage(buf,buf_len);
-    // ESP_LOGE(TAG,"电压值：%.2fV",ret);
-    // float temp = get_temperature(ret);
-    // ESP_LOGE(TAG,"temp:%.2f",temp);
+    
+    
+    // rs485_uart_init();
+    // while (1)
+    // {
+    //     RS_TX_ON;
+    //     esp_err_t ret = RS_transmit();
+    //     ESP_LOGI(TAG,"%d",ret);
+    //     RS_RX_ON;
+    //     vTaskDelay(pdMS_TO_TICKS(3000));
+    // }
 
+    //     gpio_config_t led_cfg = {
+    //     .pin_bit_mask = TEST_GPIO,
+    //     .mode = GPIO_MODE_OUTPUT,
+    //     .pull_down_en = GPIO_PULLDOWN_DISABLE,
+    //     .pull_up_en = GPIO_PULLUP_DISABLE,
+    //     .intr_type = GPIO_INTR_DISABLE
+    // };
+
+    // gpio_config(&led_cfg);
+    // gpio_set_level(TEST_GPIO,1);
 
 }

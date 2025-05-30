@@ -2,9 +2,10 @@
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
-#define LED_R GPIO_NUM_14 // PWM_R_LED-IO14
-#define LED_G GPIO_NUM_15 // PWM_G_LED-IO15
-#define LED_B GPIO_NUM_8  // PWM_B_LED-IO8
+#define LED_R       GPIO_NUM_14 // PWM_R_LED-IO14
+#define LED_G       GPIO_NUM_15 // PWM_G_LED-IO15
+#define LED_B       GPIO_NUM_8  // PWM_B_LED-IO8
+#define NUM_COLOR   8
 
 //灯的颜色
 typedef struct {
@@ -21,7 +22,6 @@ void set_rgb_led(rgb_color_t color)
     gpio_set_level(LED_B,color.b);
 }
 
-
 // led GPIO初始化
 void led_init(void)
 {
@@ -36,15 +36,49 @@ void led_init(void)
 }
 
 // 亮灯
-void Rgb_led_flashing(void)
+void rgb_led_on(void)
 {
     rgb_color_t rgb ={0,1,1};
     set_rgb_led(rgb);
 }
 
 // 关灯
-void turn_of_light(void)
+void rgb_led_off(void)
 {
     rgb_color_t rgb = {0,0,0};
     set_rgb_led(rgb);
+}
+
+static rgb_color_t color_arr[NUM_COLOR]={
+    {1,0,0},//红
+    {0,1,0},//绿
+    {0,0,1},//蓝
+    {1,1,0},//黄
+    {1,0,1},//紫
+    {0,1,1},//青
+    {1,1,1}//白
+};
+
+//流水灯
+void rgb_led_flash(void)
+{
+    for (uint8_t index =0;index < NUM_COLOR;index ++)
+    {
+        set_rgb_led(color_arr[index]);
+        vTaskDelay(pdMS_TO_TICKS(100));
+    }
+}
+
+//红绿蓝三色灯
+void rgb_led_light(void)
+{
+    rgb_color_t rgb = {1,0,0};
+    set_rgb_led(rgb);
+    vTaskDelay(pdMS_TO_TICKS(1000));
+    rgb =(rgb_color_t){0,1,0};
+    set_rgb_led(rgb);
+    vTaskDelay(pdMS_TO_TICKS(1000));
+    rgb =(rgb_color_t){0,0,1};
+    set_rgb_led(rgb);
+    vTaskDelay(pdMS_TO_TICKS(1000));
 }

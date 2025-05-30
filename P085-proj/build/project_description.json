@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "P085-proj",
-    "project_version":    "6629755-dirty",
+    "project_version":    "1aa86e9-dirty",
     "project_path":       "/home/yizhihuyao/esp32/proj/P085-proj",
     "idf_path":           "/home/yizhihuyao/esp32/esp-idf",
     "build_dir":          "/home/yizhihuyao/esp32/proj/P085-proj/build",
@@ -1210,8 +1210,8 @@
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__esp-modbus", "mb_example_common" ],
             "file": "/home/yizhihuyao/esp32/proj/P085-proj/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/yizhihuyao/esp32/proj/P085-proj/main/P085_drv.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/P085_proj.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/RS485_master.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/RS485_slave.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/button.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/ens210.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/id.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/led.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/ntc.c" ],
-            "include_dirs": [ "./inc" ]
+            "sources": [ "/home/yizhihuyao/esp32/proj/P085-proj/main/P085_drv.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/P085_proj.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/RJ12.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/RS485.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/RS485_master.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/RS485_slave.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/button.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/ens210.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/id.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/led.c", "/home/yizhihuyao/esp32/proj/P085-proj/main/src/ntc.c" ],
+            "include_dirs": [ ".", "inc" ]
         },
         "mb_example_common": {
             "alias": "idf::mb_example_common",
@@ -2860,7 +2860,7 @@
             "priv_reqs": [ "espressif__esp-modbus", "mb_example_common" ],
             "managed_reqs": [],
             "managed_priv_reqs": [ "espressif__esp-modbus", "mb_example_common" ],
-            "include_dirs": [ "./inc" ]
+            "include_dirs": [ ".", "inc" ]
         },
         "mb_example_common": {
             "alias": "idf::mb_example_common",
