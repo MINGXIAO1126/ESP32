@@ -1,0 +1,22 @@
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x408038a8
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x538
+load:0x4086c110,len:0xbf0
+load:0x4086e610,len:0x2604
+entry 0x4086c110
+E (68) 啦啦啦: --------------------   开始测试   -----------------------------------
+E (2668) RJ12 : RST 高
+E (4768) RJ12 : RST 低
+E (6868) RJ12 : RST 高
+E (8968) RJ12 : RST 低
+E (11068) RJ12 : RST 高
+E (13168) RJ12 : RST 低
+E (15268) RJ12 : RST 高
+E (17368) RJ12 : RST 低
+E (19468) RJ12 : RST 高
+E (21568) RJ12 : RST 低
+E (23668) RJ12 : RST 高

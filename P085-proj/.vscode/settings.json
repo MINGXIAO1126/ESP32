@@ -1,0 +1,21 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "files.associations": {
+    "hal_utils.h": "c",
+    "cstdint": "cpp",
+    "param.h": "c",
+    "i2c_hal.h": "c",
+    "i2c_master.h": "c",
+    "*.inc": "c",
+    "esp_log.h": "c",
+    "adc_continuous.h": "c",
+    "p085_drv.h": "c",
+    "ens210.h": "c",
+    "compare": "cpp",
+    "freertos.h": "c",
+    "rs485.h": "c",
+    "button.h": "c",
+    "stdio.h": "c"
+  },
+  "Codegeex.GenerationPreference": "line by line"
+}

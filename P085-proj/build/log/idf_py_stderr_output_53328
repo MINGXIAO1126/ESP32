@@ -1,0 +1,31 @@
+[0;33m--- esp-idf-monitor 1.6.2 on /dev/ttyACM0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40018fa6: ets_vprintf in ROM
+[0m
+[1;31m--- Error: device reports readiness to read but returned no data (device disconnected or multiple access on port?)[0m
+[0;33m--- Waiting for the device to reconnect[0m[0;33m.[0m[0;33m[0m
+[0;33m--- Stack dump detected[0m
+[0;33m--- 0x40800966: panic_abort at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+--- 0x408069d6: __ubsan_include at /home/yizhihuyao/esp32/esp-idf/components/esp_system/ubsan.c:311
+[0m
+[0;33m--- 0x40800001: _vector_table at /home/yizhihuyao/esp32/esp-idf/components/riscv/vectors_intc.S:54
+[0m
+[0;33m
+--- Backtrace:
+
+[0m
+[0;33m--- 0x4001975a: software_reset_cpu in ROM
+[0m
+[0;33m--- Stack dump detected[0m
+[0;33m--- 0x40800966: panic_abort at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+--- 0x408069d6: __ubsan_include at /home/yizhihuyao/esp32/esp-idf/components/esp_system/ubsan.c:311
+[0m
+[0;33m--- 0x40800001: _vector_table at /home/yizhihuyao/esp32/esp-idf/components/riscv/vectors_intc.S:54
+[0m
+[0;33m
+--- Backtrace:
+
+[0m
+[0;33m--- 0x4001975a: software_reset_cpu in ROM
+[0m
+[0m

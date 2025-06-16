@@ -1,0 +1,15 @@
+CMake Error at /home/yizhihuyao/esp32/esp-idf/tools/cmake/build.cmake:610 (message):
+  ERROR: Cannot parse components lock file.  Please check that
+
+  	/home/yizhihuyao/esp32/proj/P085-proj/dependencies.lock
+
+  is a valid lock YAML file.
+
+  You can delete corrupted lock file and it will be recreated on next run.
+  Some components may be updated in this case.
+
+Call Stack (most recent call first):
+  /home/yizhihuyao/esp32/esp-idf/tools/cmake/project.cmake:717 (idf_build_process)
+  CMakeLists.txt:6 (project)
+
+

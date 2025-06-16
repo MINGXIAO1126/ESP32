@@ -1,0 +1,85 @@
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40803d1e
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x538
+load:0x4086c110,len:0xbf0
+load:0x4086e610,len:0x2604
+entry 0x4086c110
+E (88) 啦啦啦: --------------------   开始测试   -----------------------------------
+E (188) ENS 传感器  : 设备地址: 0x43
+E (188) ID          : Board ID:ID0
+E (188) ENS 传感器  : UID: 56e29440000
+E (188) ENS 传感器  : 温度: 30.79℃
+E (188) ENS 传感器  : 相对湿度: 62.07%
+E (238) RS485       : Modbus master stack initialized...
+E (238) RS485       : Start modbus test...
+E (288) NTC 热敏电阻: 电阻值: 8179.7148Ω
+E (288) NTC 热敏电阻: 温度: 29.59℃
+E (1288) RJ12 : RST 高
+E (3188) ENS 传感器  : 温度: 30.35℃
+E (3188) ENS 传感器  : 相对湿度: 58.48%
+E (3238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).
+E (3388) NTC 热敏电阻: 电阻值: 8253.4785Ω
+E (3388) NTC 热敏电阻: 温度: 29.38℃
+E (3388) RJ12 : RST 低
+E (5488) RJ12 : RST 高
+E (6188) ENS 传感器  : 温度: 30.23℃
+E (6188) ENS 传感器  : 相对湿度: 57.50%
+E (6238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).
+E (6488) NTC 热敏电阻: 电阻值: 8297.8721Ω
+E (6488) NTC 热敏电阻: 温度: 29.26℃
+E (7588) RJ12 : RST 低
+E (9188) ENS 传感器  : 温度: 30.16℃
+E (9188) ENS 传感器  : 相对湿度: 57.31%
+E (9238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).
+E (9588) NTC 热敏电阻: 电阻值: 8297.8721Ω
+E (9588) NTC 热敏电阻: 温度: 29.26℃
+E (9688) RJ12 : RST 高
+E (11788) RJ12 : RST 低
+E (12188) ENS 传感器  : 温度: 30.12℃
+E (12188) ENS 传感器  : 相对湿度: 57.28%
+E (12238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).
+E (12688) NTC 热敏电阻: 电阻值: 8327.5264Ω
+E (12688) NTC 热敏电阻: 温度: 29.18℃
+E (13888) RJ12 : RST 高
+E (15188) ENS 传感器  : 温度: 30.16℃
+E (15188) ENS 传感器  : 相对湿度: 57.49%
+E (15238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).
+E (15788) NTC 热敏电阻: 电阻值: 8342.3701Ω
+E (15788) NTC 热敏电阻: 温度: 29.14℃
+E (15988) RJ12 : RST 低
+E (18088) RJ12 : RST 高
+E (18188) ENS 传感器  : 温度: 30.12℃
+E (18188) ENS 传感器  : 相对湿度: 57.35%
+E (18238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).
+E (18888) NTC 热敏电阻: 电阻值: 8342.3701Ω
+E (18888) NTC 热敏电阻: 温度: 29.14℃
+E (20188) RJ12 : RST 低
+E (21188) ENS 传感器  : 温度: 30.08℃
+E (21188) ENS 传感器  : 相对湿度: 57.17%
+E (21238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).
+E (21988) NTC 热敏电阻: 电阻值: 8357.2266Ω
+E (21988) NTC 热敏电阻: 温度: 29.09℃
+E (22288) RJ12 : RST 高
+E (24188) ENS 传感器  : 温度: 29.99℃
+E (24188) ENS 传感器  : 相对湿度: 57.10%
+E (24238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).
+E (24388) RJ12 : RST 低
+E (25088) NTC 热敏电阻: 电阻值: 8357.2266Ω
+E (25088) NTC 热敏电阻: 温度: 29.09℃
+E (26488) RJ12 : RST 高
+E (27188) ENS 传感器  : 温度: 29.99℃
+E (27188) ENS 传感器  : 相对湿度: 57.33%
+E (27238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).
+E (28188) NTC 热敏电阻: 电阻值: 8297.8721Ω
+E (28188) NTC 热敏电阻: 温度: 29.26℃
+E (28588) RJ12 : RST 低
+E (30188) ENS 传感器  : 温度: 29.93℃
+E (30188) ENS 传感器  : 相对湿度: 57.22%
+E (30238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).
+E (30688) RJ12 : RST 高
+E (31288) NTC 热敏电阻: 电阻值: 8327.5264Ω
+E (31288) NTC 热敏电阻: 温度: 29.18℃

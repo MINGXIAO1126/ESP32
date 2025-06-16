@@ -1,0 +1,4 @@
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32c6
+-- Configuring incomplete, errors occurred!
+See also "/home/yizhihuyao/esp32/proj/P085-proj/build/CMakeFiles/CMakeOutput.log".

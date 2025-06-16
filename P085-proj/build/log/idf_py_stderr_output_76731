@@ -1,0 +1,7 @@
+CMake Error at run_serial_tool.cmake:67 (message):
+  
+  /home/yizhihuyao/esp32/esp-matter/connectedhomeip/connectedhomeip/.environment/pigweed-venv/bin/python;;/home/yizhihuyao/esp32/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32c6
+  failed.
+
+
+

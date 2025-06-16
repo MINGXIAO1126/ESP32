@@ -1,0 +1,1110 @@
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40803d1e
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x538
+load:0x4086c110,len:0xbf0
+load:0x4086e610,len:0x2604
+entry 0x4086c110
+[1;31mE (88) 啦啦啦: --------------------   开始测试   -----------------------------------[0m
+[1;31mE (188) ENS 传感器  : 设备地址: 0x43[0m
+[1;31mE (188) ID          : Board ID:ID0[0m
+[1;31mE (188) ENS 传感器  : UID: d6e2940000[0m
+[1;31mE (188) ENS 传感器  : 温度: 30.43℃[0m
+[1;31mE (188) ENS 传感器  : 相对湿度: 62.55%[0m
+[1;31mE (238) RS485       : Modbus master stack initialized...[0m
+[1;31mE (238) RS485       : Start modbus test...[0m
+[1;31mE (288) NTC 热敏电阻: 电阻值: 8150.2891Ω[0m
+[1;31mE (288) NTC 热敏电阻: 温度: 29.68℃[0m
+[1;31mE (3188) ENS 传感器  : 温度: 30.52℃[0m
+[1;31mE (3188) ENS 传感器  : 相对湿度: 65.13%[0m
+[1;31mE (3238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (3388) NTC 热敏电阻: 电阻值: 8150.2891Ω[0m
+[1;31mE (3388) NTC 热敏电阻: 温度: 29.68℃[0m
+[1;31mE (6188) ENS 传感器  : 温度: 30.54℃[0m
+[1;31mE (6188) ENS 传感器  : 相对湿度: 63.93%[0m
+[1;31mE (6238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (6488) NTC 热敏电阻: 电阻值: 8120.9092Ω[0m
+[1;31mE (6488) NTC 热敏电阻: 温度: 29.76℃[0m
+[1;31mE (9188) ENS 传感器  : 温度: 30.57℃[0m
+[1;31mE (9188) ENS 传感器  : 相对湿度: 65.66%[0m
+[1;31mE (9238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (9588) NTC 热敏电阻: 电阻值: 8091.5737Ω[0m
+[1;31mE (9588) NTC 热敏电阻: 温度: 29.84℃[0m
+[1;31mE (12188) ENS 传感器  : 温度: 30.63℃[0m
+[1;31mE (12188) ENS 传感器  : 相对湿度: 65.66%[0m
+[1;31mE (12238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (12688) NTC 热敏电阻: 电阻值: 8062.2842Ω[0m
+[1;31mE (12688) NTC 热敏电阻: 温度: 29.93℃[0m
+[1;31mE (15188) ENS 传感器  : 温度: 30.68℃[0m
+[1;31mE (15188) ENS 传感器  : 相对湿度: 65.93%[0m
+[1;31mE (15238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (15788) NTC 热敏电阻: 电阻值: 8047.6558Ω[0m
+[1;31mE (15788) NTC 热敏电阻: 温度: 29.97℃[0m
+[1;31mE (18188) ENS 传感器  : 温度: 30.77℃[0m
+[1;31mE (18188) ENS 传感器  : 相对湿度: 66.96%[0m
+[1;31mE (18238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (18888) NTC 热敏电阻: 电阻值: 8047.6558Ω[0m
+[1;31mE (18888) NTC 热敏电阻: 温度: 29.97℃[0m
+[1;31mE (21188) ENS 传感器  : 温度: 30.74℃[0m
+[1;31mE (21188) ENS 传感器  : 相对湿度: 65.36%[0m
+[1;31mE (21238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (21988) NTC 热敏电阻: 电阻值: 8062.2842Ω[0m
+[1;31mE (21988) NTC 热敏电阻: 温度: 29.93℃[0m
+[1;31mE (24188) ENS 传感器  : 温度: 30.73℃[0m
+[1;31mE (24188) ENS 传感器  : 相对湿度: 63.32%[0m
+[1;31mE (24238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (25088) NTC 热敏电阻: 电阻值: 8091.5737Ω[0m
+[1;31mE (25088) NTC 热敏电阻: 温度: 29.84℃[0m
+[1;31mE (27188) ENS 传感器  : 温度: 30.60℃[0m
+[1;31mE (27188) ENS 传感器  : 相对湿度: 57.25%[0m
+[1;31mE (27238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (28188) NTC 热敏电阻: 电阻值: 8076.9233Ω[0m
+[1;31mE (28188) NTC 热敏电阻: 温度: 29.89℃[0m
+[1;31mE (30188) ENS 传感器  : 温度: 30.51℃[0m
+[1;31mE (30188) ENS 传感器  : 相对湿度: 55.78%[0m
+[1;31mE (30238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (31288) NTC 热敏电阻: 电阻值: 8150.2891Ω[0m
+[1;31mE (31288) NTC 热敏电阻: 温度: 29.68℃[0m
+[1;31mE (33188) ENS 传感器  : 温度: 30.44℃[0m
+[1;31mE (33188) ENS 传感器  : 相对湿度: 55.45%[0m
+[1;31mE (33738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (34388) NTC 热敏电阻: 电阻值: 8150.2891Ω[0m
+[1;31mE (34388) NTC 热敏电阻: 温度: 29.68℃[0m
+[1;31mE (36188) ENS 传感器  : 温度: 30.37℃[0m
+[1;31mE (36188) ENS 传感器  : 相对湿度: 55.62%[0m
+[1;31mE (36738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (37488) NTC 热敏电阻: 电阻值: 8164.9966Ω[0m
+[1;31mE (37488) NTC 热敏电阻: 温度: 29.63℃[0m
+[1;31mE (39188) ENS 传感器  : 温度: 30.30℃[0m
+[1;31mE (39188) ENS 传感器  : 相对湿度: 55.70%[0m
+[1;31mE (39738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (40588) NTC 热敏电阻: 电阻值: 8194.4443Ω[0m
+[1;31mE (40588) NTC 热敏电阻: 温度: 29.55℃[0m
+[1;31mE (42188) ENS 传感器  : 温度: 30.30℃[0m
+[1;31mE (42188) ENS 传感器  : 相对湿度: 55.76%[0m
+[1;31mE (42738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (43688) NTC 热敏电阻: 电阻值: 8164.9966Ω[0m
+[1;31mE (43688) NTC 热敏电阻: 温度: 29.63℃[0m
+[1;31mE (45188) ENS 传感器  : 温度: 30.26℃[0m
+[1;31mE (45188) ENS 传感器  : 相对湿度: 55.91%[0m
+[1;31mE (45738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (46788) NTC 热敏电阻: 电阻值: 8209.1855Ω[0m
+[1;31mE (46788) NTC 热敏电阻: 温度: 29.51℃[0m
+[1;31mE (48188) ENS 传感器  : 温度: 30.23℃[0m
+[1;31mE (48188) ENS 传感器  : 相对湿度: 55.91%[0m
+[1;31mE (48738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (49888) NTC 热敏电阻: 电阻值: 8164.9966Ω[0m
+[1;31mE (49888) NTC 热敏电阻: 温度: 29.63℃[0m
+[1;31mE (51188) ENS 传感器  : 温度: 30.33℃[0m
+[1;31mE (51188) ENS 传感器  : 相对湿度: 61.87%[0m
+[1;31mE (51738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (52988) NTC 热敏电阻: 电阻值: 8120.9092Ω[0m
+[1;31mE (52988) NTC 热敏电阻: 温度: 29.76℃[0m
+[1;31mE (54188) ENS 传感器  : 温度: 30.29℃[0m
+[1;31mE (54188) ENS 传感器  : 相对湿度: 60.42%[0m
+[1;31mE (54738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (56088) NTC 热敏电阻: 电阻值: 8164.9966Ω[0m
+[1;31mE (56088) NTC 热敏电阻: 温度: 29.63℃[0m
+[1;31mE (57188) ENS 传感器  : 温度: 30.21℃[0m
+[1;31mE (57188) ENS 传感器  : 相对湿度: 56.84%[0m
+[1;31mE (57738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (59188) NTC 热敏电阻: 电阻值: 8179.7148Ω[0m
+[1;31mE (59188) NTC 热敏电阻: 温度: 29.59℃[0m
+[1;31mE (60188) ENS 传感器  : 温度: 30.21℃[0m
+[1;31mE (60188) ENS 传感器  : 相对湿度: 56.27%[0m
+[1;31mE (60738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (61738) RS485       : Start modbus test...[0m
+[1;31mE (62288) NTC 热敏电阻: 电阻值: 8194.4443Ω[0m
+[1;31mE (62288) NTC 热敏电阻: 温度: 29.55℃[0m
+[1;31mE (63188) ENS 传感器  : 温度: 30.16℃[0m
+[1;31mE (63188) ENS 传感器  : 相对湿度: 56.17%[0m
+[1;31mE (64738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (65388) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (65388) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (66188) ENS 传感器  : 温度: 30.12℃[0m
+[1;31mE (66188) ENS 传感器  : 相对湿度: 56.33%[0m
+[1;31mE (67738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (68488) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (68488) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (69188) ENS 传感器  : 温度: 30.12℃[0m
+[1;31mE (69188) ENS 传感器  : 相对湿度: 56.31%[0m
+[1;31mE (70738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (71588) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (71588) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (72188) ENS 传感器  : 温度: 30.08℃[0m
+[1;31mE (72188) ENS 传感器  : 相对湿度: 56.32%[0m
+[1;31mE (73738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (74688) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (74688) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (75188) ENS 传感器  : 温度: 30.05℃[0m
+[1;31mE (75188) ENS 传感器  : 相对湿度: 56.38%[0m
+[1;31mE (76738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (77788) NTC 热敏电阻: 电阻值: 8268.2646Ω[0m
+[1;31mE (77788) NTC 热敏电阻: 温度: 29.34℃[0m
+[1;31mE (78188) ENS 传感器  : 温度: 30.04℃[0m
+[1;31mE (78188) ENS 传感器  : 相对湿度: 56.34%[0m
+[1;31mE (79738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (80888) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (80888) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (81188) ENS 传感器  : 温度: 30.01℃[0m
+[1;31mE (81188) ENS 传感器  : 相对湿度: 56.27%[0m
+[1;31mE (82738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (83988) NTC 热敏电阻: 电阻值: 8268.2646Ω[0m
+[1;31mE (83988) NTC 热敏电阻: 温度: 29.34℃[0m
+[1;31mE (84188) ENS 传感器  : 温度: 29.98℃[0m
+[1;31mE (84188) ENS 传感器  : 相对湿度: 56.39%[0m
+[1;31mE (85738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (87088) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (87088) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (87188) ENS 传感器  : 温度: 29.98℃[0m
+[1;31mE (87188) ENS 传感器  : 相对湿度: 56.46%[0m
+[1;31mE (88738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (90188) NTC 热敏电阻: 电阻值: 8268.2646Ω[0m
+[1;31mE (90188) NTC 热敏电阻: 温度: 29.34℃[0m
+[1;31mE (90188) ENS 传感器  : 温度: 29.98℃[0m
+[1;31mE (90188) ENS 传感器  : 相对湿度: 56.46%[0m
+[1;31mE (91738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (93188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (93188) ENS 传感器  : 相对湿度: 56.58%[0m
+[1;31mE (93288) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (93288) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (95238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (96188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (96188) ENS 传感器  : 相对湿度: 56.62%[0m
+[1;31mE (96388) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (96388) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (98238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (99188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (99188) ENS 传感器  : 相对湿度: 56.62%[0m
+[1;31mE (99488) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (99488) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (101238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (102188) ENS 传感器  : 温度: 29.93℃[0m
+[1;31mE (102188) ENS 传感器  : 相对湿度: 56.65%[0m
+[1;31mE (102588) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (102588) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (104238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (105188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (105188) ENS 传感器  : 相对湿度: 56.76%[0m
+[1;31mE (105688) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (105688) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (107238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (108188) ENS 传感器  : 温度: 29.91℃[0m
+[1;31mE (108188) ENS 传感器  : 相对湿度: 56.74%[0m
+[1;31mE (108788) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (108788) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (110238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (111188) ENS 传感器  : 温度: 29.90℃[0m
+[1;31mE (111188) ENS 传感器  : 相对湿度: 56.63%[0m
+[1;31mE (111888) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (111888) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (113238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (114188) ENS 传感器  : 温度: 29.90℃[0m
+[1;31mE (114188) ENS 传感器  : 相对湿度: 56.74%[0m
+[1;31mE (114988) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (114988) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (116238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (117188) ENS 传感器  : 温度: 29.90℃[0m
+[1;31mE (117188) ENS 传感器  : 相对湿度: 56.77%[0m
+[1;31mE (118088) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (118088) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (119238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (120188) ENS 传感器  : 温度: 29.87℃[0m
+[1;31mE (120188) ENS 传感器  : 相对湿度: 56.93%[0m
+[1;31mE (121188) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (121188) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (122238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (123188) ENS 传感器  : 温度: 29.87℃[0m
+[1;31mE (123188) ENS 传感器  : 相对湿度: 56.98%[0m
+[1;31mE (123238) RS485       : Start modbus test...[0m
+[1;31mE (124288) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (124288) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (126188) ENS 传感器  : 温度: 29.87℃[0m
+[1;31mE (126188) ENS 传感器  : 相对湿度: 57.10%[0m
+[1;31mE (126238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (127388) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (127388) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (129188) ENS 传感器  : 温度: 29.85℃[0m
+[1;31mE (129188) ENS 传感器  : 相对湿度: 57.26%[0m
+[1;31mE (129238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (130488) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (130488) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (132188) ENS 传感器  : 温度: 29.85℃[0m
+[1;31mE (132188) ENS 传感器  : 相对湿度: 57.28%[0m
+[1;31mE (132238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (133588) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (133588) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (135188) ENS 传感器  : 温度: 29.83℃[0m
+[1;31mE (135188) ENS 传感器  : 相对湿度: 57.28%[0m
+[1;31mE (135238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (136688) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (136688) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (138188) ENS 传感器  : 温度: 29.83℃[0m
+[1;31mE (138188) ENS 传感器  : 相对湿度: 57.35%[0m
+[1;31mE (138238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (139788) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (139788) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (141188) ENS 传感器  : 温度: 29.83℃[0m
+[1;31mE (141188) ENS 传感器  : 相对湿度: 57.48%[0m
+[1;31mE (141238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (142888) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (142888) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (144188) ENS 传感器  : 温度: 29.82℃[0m
+[1;31mE (144188) ENS 传感器  : 相对湿度: 57.48%[0m
+[1;31mE (144238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (145988) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (145988) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (147188) ENS 传感器  : 温度: 29.80℃[0m
+[1;31mE (147188) ENS 传感器  : 相对湿度: 57.54%[0m
+[1;31mE (147238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (149088) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (149088) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (150188) ENS 传感器  : 温度: 29.83℃[0m
+[1;31mE (150188) ENS 传感器  : 相对湿度: 57.69%[0m
+[1;31mE (150238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (152188) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (152188) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (153188) ENS 传感器  : 温度: 29.80℃[0m
+[1;31mE (153188) ENS 传感器  : 相对湿度: 57.69%[0m
+[1;31mE (153238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (155288) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (155288) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (156188) ENS 传感器  : 温度: 29.85℃[0m
+[1;31mE (156188) ENS 传感器  : 相对湿度: 57.87%[0m
+[1;31mE (156738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (158388) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (158388) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (159188) ENS 传感器  : 温度: 29.83℃[0m
+[1;31mE (159188) ENS 传感器  : 相对湿度: 57.94%[0m
+[1;31mE (159738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (161488) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (161488) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (162188) ENS 传感器  : 温度: 29.88℃[0m
+[1;31mE (162188) ENS 传感器  : 相对湿度: 57.93%[0m
+[1;31mE (162738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (164588) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (164588) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (165188) ENS 传感器  : 温度: 29.85℃[0m
+[1;31mE (165188) ENS 传感器  : 相对湿度: 57.87%[0m
+[1;31mE (165738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (167688) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (167688) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (168188) ENS 传感器  : 温度: 29.87℃[0m
+[1;31mE (168188) ENS 传感器  : 相对湿度: 57.96%[0m
+[1;31mE (168738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (170788) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (170788) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (171188) ENS 传感器  : 温度: 29.88℃[0m
+[1;31mE (171188) ENS 传感器  : 相对湿度: 58.07%[0m
+[1;31mE (171738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (173888) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (173888) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (174188) ENS 传感器  : 温度: 29.90℃[0m
+[1;31mE (174188) ENS 传感器  : 相对湿度: 58.16%[0m
+[1;31mE (174738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (176988) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (176988) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (177188) ENS 传感器  : 温度: 29.90℃[0m
+[1;31mE (177188) ENS 传感器  : 相对湿度: 58.10%[0m
+[1;31mE (177738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (180088) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (180088) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (180188) ENS 传感器  : 温度: 29.93℃[0m
+[1;31mE (180188) ENS 传感器  : 相对湿度: 58.11%[0m
+[1;31mE (180738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (183188) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (183188) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (183188) ENS 传感器  : 温度: 29.91℃[0m
+[1;31mE (183188) ENS 传感器  : 相对湿度: 58.05%[0m
+[1;31mE (183738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (184738) RS485       : Start modbus test...[0m
+[1;31mE (186188) ENS 传感器  : 温度: 29.93℃[0m
+[1;31mE (186188) ENS 传感器  : 相对湿度: 58.07%[0m
+[1;31mE (186288) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (186288) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (187738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (189188) ENS 传感器  : 温度: 29.93℃[0m
+[1;31mE (189188) ENS 传感器  : 相对湿度: 58.11%[0m
+[1;31mE (189388) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (189388) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (190738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (192188) ENS 传感器  : 温度: 29.90℃[0m
+[1;31mE (192188) ENS 传感器  : 相对湿度: 58.20%[0m
+[1;31mE (192488) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (192488) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (193738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (195188) ENS 传感器  : 温度: 29.93℃[0m
+[1;31mE (195188) ENS 传感器  : 相对湿度: 58.23%[0m
+[1;31mE (195588) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (195588) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (196738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (198188) ENS 传感器  : 温度: 29.91℃[0m
+[1;31mE (198188) ENS 传感器  : 相对湿度: 58.21%[0m
+[1;31mE (198688) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (198688) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (199738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (201188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (201188) ENS 传感器  : 相对湿度: 58.29%[0m
+[1;31mE (201788) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (201788) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (202738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (204188) ENS 传感器  : 温度: 29.90℃[0m
+[1;31mE (204188) ENS 传感器  : 相对湿度: 58.31%[0m
+[1;31mE (204888) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (204888) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (205738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (207188) ENS 传感器  : 温度: 29.90℃[0m
+[1;31mE (207188) ENS 传感器  : 相对湿度: 58.39%[0m
+[1;31mE (207988) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (207988) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (208738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (210188) ENS 传感器  : 温度: 29.90℃[0m
+[1;31mE (210188) ENS 传感器  : 相对湿度: 58.56%[0m
+[1;31mE (211088) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (211088) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (211738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (213188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (213188) ENS 传感器  : 相对湿度: 58.74%[0m
+[1;31mE (214188) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (214188) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (214738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (216188) ENS 传感器  : 温度: 29.96℃[0m
+[1;31mE (216188) ENS 传感器  : 相对湿度: 58.71%[0m
+[1;31mE (217288) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (217288) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (218238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (219188) ENS 传感器  : 温度: 29.98℃[0m
+[1;31mE (219188) ENS 传感器  : 相对湿度: 58.68%[0m
+[1;31mE (220388) NTC 热敏电阻: 电阻值: 8268.2646Ω[0m
+[1;31mE (220388) NTC 热敏电阻: 温度: 29.34℃[0m
+[1;31mE (221238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (222188) ENS 传感器  : 温度: 29.98℃[0m
+[1;31mE (222188) ENS 传感器  : 相对湿度: 58.59%[0m
+[1;31mE (223488) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (223488) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (224238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (225188) ENS 传感器  : 温度: 29.98℃[0m
+[1;31mE (225188) ENS 传感器  : 相对湿度: 58.57%[0m
+[1;31mE (226588) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (226588) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (227238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (228188) ENS 传感器  : 温度: 30.01℃[0m
+[1;31mE (228188) ENS 传感器  : 相对湿度: 58.50%[0m
+[1;31mE (229688) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (229688) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (230238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (231188) ENS 传感器  : 温度: 30.01℃[0m
+[1;31mE (231188) ENS 传感器  : 相对湿度: 58.50%[0m
+[1;31mE (232788) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (232788) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (233238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (234188) ENS 传感器  : 温度: 30.04℃[0m
+[1;31mE (234188) ENS 传感器  : 相对湿度: 58.56%[0m
+[1;31mE (235888) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (235888) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (236238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (237188) ENS 传感器  : 温度: 30.04℃[0m
+[1;31mE (237188) ENS 传感器  : 相对湿度: 58.49%[0m
+[1;31mE (238988) NTC 热敏电阻: 电阻值: 8268.2646Ω[0m
+[1;31mE (238988) NTC 热敏电阻: 温度: 29.34℃[0m
+[1;31mE (239238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (240188) ENS 传感器  : 温度: 30.07℃[0m
+[1;31mE (240188) ENS 传感器  : 相对湿度: 58.44%[0m
+[1;31mE (242088) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (242088) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (242238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (243188) ENS 传感器  : 温度: 30.02℃[0m
+[1;31mE (243188) ENS 传感器  : 相对湿度: 58.47%[0m
+[1;31mE (245188) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (245188) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (245238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (246188) ENS 传感器  : 温度: 30.05℃[0m
+[1;31mE (246188) ENS 传感器  : 相对湿度: 58.66%[0m
+[1;31mE (246238) RS485       : Start modbus test...[0m
+[1;31mE (248288) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (248288) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (249188) ENS 传感器  : 温度: 30.08℃[0m
+[1;31mE (249188) ENS 传感器  : 相对湿度: 58.71%[0m
+[1;31mE (249238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (251388) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (251388) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (252188) ENS 传感器  : 温度: 30.07℃[0m
+[1;31mE (252188) ENS 传感器  : 相对湿度: 58.60%[0m
+[1;31mE (252238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (254488) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (254488) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (255188) ENS 传感器  : 温度: 30.08℃[0m
+[1;31mE (255188) ENS 传感器  : 相对湿度: 58.79%[0m
+[1;31mE (255238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (257588) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (257588) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (258188) ENS 传感器  : 温度: 30.08℃[0m
+[1;31mE (258188) ENS 传感器  : 相对湿度: 58.72%[0m
+[1;31mE (258238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (260688) NTC 热敏电阻: 电阻值: 8253.4785Ω[0m
+[1;31mE (260688) NTC 热敏电阻: 温度: 29.38℃[0m
+[1;31mE (261188) ENS 传感器  : 温度: 30.12℃[0m
+[1;31mE (261188) ENS 传感器  : 相对湿度: 58.83%[0m
+[1;31mE (261238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (263788) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (263788) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (264188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (264188) ENS 传感器  : 相对湿度: 58.76%[0m
+[1;31mE (264238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (266888) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (266888) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (267188) ENS 传感器  : 温度: 30.12℃[0m
+[1;31mE (267188) ENS 传感器  : 相对湿度: 58.64%[0m
+[1;31mE (267238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (269988) NTC 热敏电阻: 电阻值: 8253.4785Ω[0m
+[1;31mE (269988) NTC 热敏电阻: 温度: 29.38℃[0m
+[1;31mE (270188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (270188) ENS 传感器  : 相对湿度: 58.64%[0m
+[1;31mE (270238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (273088) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (273088) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (273188) ENS 传感器  : 温度: 30.12℃[0m
+[1;31mE (273188) ENS 传感器  : 相对湿度: 58.72%[0m
+[1;31mE (273238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (276188) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (276188) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (276188) ENS 传感器  : 温度: 30.12℃[0m
+[1;31mE (276188) ENS 传感器  : 相对湿度: 58.72%[0m
+[1;31mE (276238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (279188) ENS 传感器  : 温度: 30.12℃[0m
+[1;31mE (279188) ENS 传感器  : 相对湿度: 58.62%[0m
+[1;31mE (279288) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (279288) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (279738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (282188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (282188) ENS 传感器  : 相对湿度: 58.55%[0m
+[1;31mE (282388) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (282388) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (282738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (285188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (285188) ENS 传感器  : 相对湿度: 58.60%[0m
+[1;31mE (285488) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (285488) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (285738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (288188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (288188) ENS 传感器  : 相对湿度: 58.73%[0m
+[1;31mE (288588) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (288588) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (288738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (291188) ENS 传感器  : 温度: 30.15℃[0m
+[1;31mE (291188) ENS 传感器  : 相对湿度: 58.89%[0m
+[1;31mE (291688) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (291688) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (291738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (294188) ENS 传感器  : 温度: 30.15℃[0m
+[1;31mE (294188) ENS 传感器  : 相对湿度: 58.89%[0m
+[1;31mE (294738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (294788) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (294788) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (297188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (297188) ENS 传感器  : 相对湿度: 59.01%[0m
+[1;31mE (297738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (297888) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (297888) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (300188) ENS 传感器  : 温度: 30.15℃[0m
+[1;31mE (300188) ENS 传感器  : 相对湿度: 59.03%[0m
+[1;31mE (300738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (300988) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (300988) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (303188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (303188) ENS 传感器  : 相对湿度: 58.83%[0m
+[1;31mE (303738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (304088) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (304088) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (306188) ENS 传感器  : 温度: 30.16℃[0m
+[1;31mE (306188) ENS 传感器  : 相对湿度: 58.99%[0m
+[1;31mE (306738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (307188) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (307188) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (307738) RS485       : Start modbus test...[0m
+[1;31mE (309188) ENS 传感器  : 温度: 30.16℃[0m
+[1;31mE (309188) ENS 传感器  : 相对湿度: 59.17%[0m
+[1;31mE (310288) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (310288) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (310738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (312188) ENS 传感器  : 温度: 30.15℃[0m
+[1;31mE (312188) ENS 传感器  : 相对湿度: 59.22%[0m
+[1;31mE (313388) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (313388) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (313738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (315188) ENS 传感器  : 温度: 30.18℃[0m
+[1;31mE (315188) ENS 传感器  : 相对湿度: 59.36%[0m
+[1;31mE (316488) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (316488) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (316738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (318188) ENS 传感器  : 温度: 30.18℃[0m
+[1;31mE (318188) ENS 传感器  : 相对湿度: 59.31%[0m
+[1;31mE (319588) NTC 热敏电阻: 电阻值: 8209.1855Ω[0m
+[1;31mE (319588) NTC 热敏电阻: 温度: 29.51℃[0m
+[1;31mE (319738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (321188) ENS 传感器  : 温度: 30.16℃[0m
+[1;31mE (321188) ENS 传感器  : 相对湿度: 59.33%[0m
+[1;31mE (322688) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (322688) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (322738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (324188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (324188) ENS 传感器  : 相对湿度: 59.33%[0m
+[1;31mE (325738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (325788) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (325788) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (327188) ENS 传感器  : 温度: 30.12℃[0m
+[1;31mE (327188) ENS 传感器  : 相对湿度: 59.30%[0m
+[1;31mE (328738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (328888) NTC 热敏电阻: 电阻值: 8253.4785Ω[0m
+[1;31mE (328888) NTC 热敏电阻: 温度: 29.38℃[0m
+[1;31mE (330188) ENS 传感器  : 温度: 30.12℃[0m
+[1;31mE (330188) ENS 传感器  : 相对湿度: 59.43%[0m
+[1;31mE (331738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (331988) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (331988) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (333188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (333188) ENS 传感器  : 相对湿度: 59.52%[0m
+[1;31mE (334738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (335088) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (335088) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (336188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (336188) ENS 传感器  : 相对湿度: 59.39%[0m
+[1;31mE (337738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (338188) NTC 热敏电阻: 电阻值: 8223.9385Ω[0m
+[1;31mE (338188) NTC 热敏电阻: 温度: 29.47℃[0m
+[1;31mE (339188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (339188) ENS 传感器  : 相对湿度: 59.41%[0m
+[1;31mE (341238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (341288) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (341288) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (342188) ENS 传感器  : 温度: 30.16℃[0m
+[1;31mE (342188) ENS 传感器  : 相对湿度: 59.48%[0m
+[1;31mE (344238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (344388) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (344388) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (345188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (345188) ENS 传感器  : 相对湿度: 59.46%[0m
+[1;31mE (347238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (347488) NTC 热敏电阻: 电阻值: 8253.4785Ω[0m
+[1;31mE (347488) NTC 热敏电阻: 温度: 29.38℃[0m
+[1;31mE (348188) ENS 传感器  : 温度: 30.15℃[0m
+[1;31mE (348188) ENS 传感器  : 相对湿度: 59.52%[0m
+[1;31mE (350238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (350588) NTC 热敏电阻: 电阻值: 8209.1855Ω[0m
+[1;31mE (350588) NTC 热敏电阻: 温度: 29.51℃[0m
+[1;31mE (351188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (351188) ENS 传感器  : 相对湿度: 59.46%[0m
+[1;31mE (353238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (353688) NTC 热敏电阻: 电阻值: 8253.4785Ω[0m
+[1;31mE (353688) NTC 热敏电阻: 温度: 29.38℃[0m
+[1;31mE (354188) ENS 传感器  : 温度: 30.15℃[0m
+[1;31mE (354188) ENS 传感器  : 相对湿度: 59.43%[0m
+[1;31mE (356238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (356788) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (356788) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (357188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (357188) ENS 传感器  : 相对湿度: 59.52%[0m
+[1;31mE (359238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (359888) NTC 热敏电阻: 电阻值: 8268.2646Ω[0m
+[1;31mE (359888) NTC 热敏电阻: 温度: 29.34℃[0m
+[1;31mE (360188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (360188) ENS 传感器  : 相对湿度: 59.43%[0m
+[1;31mE (362238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (362988) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (362988) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (363188) ENS 传感器  : 温度: 30.12℃[0m
+[1;31mE (363188) ENS 传感器  : 相对湿度: 59.42%[0m
+[1;31mE (365238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (366088) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (366088) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (366188) ENS 传感器  : 温度: 30.13℃[0m
+[1;31mE (366188) ENS 传感器  : 相对湿度: 59.52%[0m
+[1;31mE (368238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (369188) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (369188) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (369188) ENS 传感器  : 温度: 30.10℃[0m
+[1;31mE (369188) ENS 传感器  : 相对湿度: 59.51%[0m
+[1;31mE (369238) RS485       : Start modbus test...[0m
+[1;31mE (372188) ENS 传感器  : 温度: 30.10℃[0m
+[1;31mE (372188) ENS 传感器  : 相对湿度: 59.44%[0m
+[1;31mE (372238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (372288) NTC 热敏电阻: 电阻值: 8268.2646Ω[0m
+[1;31mE (372288) NTC 热敏电阻: 温度: 29.34℃[0m
+[1;31mE (375188) ENS 传感器  : 温度: 30.10℃[0m
+[1;31mE (375188) ENS 传感器  : 相对湿度: 59.44%[0m
+[1;31mE (375238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (375388) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (375388) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (378188) ENS 传感器  : 温度: 30.07℃[0m
+[1;31mE (378188) ENS 传感器  : 相对湿度: 59.46%[0m
+[1;31mE (378238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (378488) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (378488) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (381188) ENS 传感器  : 温度: 30.07℃[0m
+[1;31mE (381188) ENS 传感器  : 相对湿度: 59.40%[0m
+[1;31mE (381238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (381588) NTC 热敏电阻: 电阻值: 8238.7021Ω[0m
+[1;31mE (381588) NTC 热敏电阻: 温度: 29.42℃[0m
+[1;31mE (384188) ENS 传感器  : 温度: 30.04℃[0m
+[1;31mE (384188) ENS 传感器  : 相对湿度: 59.42%[0m
+[1;31mE (384238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (384688) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (384688) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (387188) ENS 传感器  : 温度: 30.01℃[0m
+[1;31mE (387188) ENS 传感器  : 相对湿度: 59.44%[0m
+[1;31mE (387238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (387788) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (387788) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (390188) ENS 传感器  : 温度: 30.05℃[0m
+[1;31mE (390188) ENS 传感器  : 相对湿度: 59.54%[0m
+[1;31mE (390238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (390888) NTC 热敏电阻: 电阻值: 8253.4785Ω[0m
+[1;31mE (390888) NTC 热敏电阻: 温度: 29.38℃[0m
+[1;31mE (393188) ENS 传感器  : 温度: 30.04℃[0m
+[1;31mE (393188) ENS 传感器  : 相对湿度: 59.47%[0m
+[1;31mE (393238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (393988) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (393988) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (396188) ENS 传感器  : 温度: 30.04℃[0m
+[1;31mE (396188) ENS 传感器  : 相对湿度: 59.54%[0m
+[1;31mE (396238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (397088) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (397088) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (399188) ENS 传感器  : 温度: 30.02℃[0m
+[1;31mE (399188) ENS 传感器  : 相对湿度: 59.43%[0m
+[1;31mE (399238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (400188) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (400188) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (402188) ENS 传感器  : 温度: 30.01℃[0m
+[1;31mE (402188) ENS 传感器  : 相对湿度: 59.42%[0m
+[1;31mE (402738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (403288) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (403288) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (405188) ENS 传感器  : 温度: 29.99℃[0m
+[1;31mE (405188) ENS 传感器  : 相对湿度: 59.47%[0m
+[1;31mE (405738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (406388) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (406388) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (408188) ENS 传感器  : 温度: 29.99℃[0m
+[1;31mE (408188) ENS 传感器  : 相对湿度: 59.55%[0m
+[1;31mE (408738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (409488) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (409488) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (411188) ENS 传感器  : 温度: 30.01℃[0m
+[1;31mE (411188) ENS 传感器  : 相对湿度: 59.59%[0m
+[1;31mE (411738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (412588) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (412588) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (414188) ENS 传感器  : 温度: 30.01℃[0m
+[1;31mE (414188) ENS 传感器  : 相对湿度: 59.48%[0m
+[1;31mE (414738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (415688) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (415688) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (417188) ENS 传感器  : 温度: 30.01℃[0m
+[1;31mE (417188) ENS 传感器  : 相对湿度: 59.52%[0m
+[1;31mE (417738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (418788) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (418788) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (420188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (420188) ENS 传感器  : 相对湿度: 59.41%[0m
+[1;31mE (420738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (421888) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (421888) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (423188) ENS 传感器  : 温度: 30.01℃[0m
+[1;31mE (423188) ENS 传感器  : 相对湿度: 59.43%[0m
+[1;31mE (423738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (424988) NTC 热敏电阻: 电阻值: 8283.0625Ω[0m
+[1;31mE (424988) NTC 热敏电阻: 温度: 29.30℃[0m
+[1;31mE (426188) ENS 传感器  : 温度: 29.98℃[0m
+[1;31mE (426188) ENS 传感器  : 相对湿度: 59.32%[0m
+[1;31mE (426738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (428088) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (428088) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (429188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (429188) ENS 传感器  : 相对湿度: 59.29%[0m
+[1;31mE (429738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (430738) RS485       : Start modbus test...[0m
+[1;31mE (431188) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (431188) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (432188) ENS 传感器  : 温度: 29.98℃[0m
+[1;31mE (432188) ENS 传感器  : 相对湿度: 59.36%[0m
+[1;31mE (433738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (434288) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (434288) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (435188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (435188) ENS 传感器  : 相对湿度: 59.34%[0m
+[1;31mE (436738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (437388) NTC 热敏电阻: 电阻值: 8297.8721Ω[0m
+[1;31mE (437388) NTC 热敏电阻: 温度: 29.26℃[0m
+[1;31mE (438188) ENS 传感器  : 温度: 29.93℃[0m
+[1;31mE (438188) ENS 传感器  : 相对湿度: 59.41%[0m
+[1;31mE (439738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (440488) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (440488) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (441188) ENS 传感器  : 温度: 29.91℃[0m
+[1;31mE (441188) ENS 传感器  : 相对湿度: 59.38%[0m
+[1;31mE (442738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (443588) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (443588) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (444188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (444188) ENS 传感器  : 相对湿度: 59.27%[0m
+[1;31mE (445738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (446688) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (446688) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (447188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (447188) ENS 传感器  : 相对湿度: 59.25%[0m
+[1;31mE (448738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (449788) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (449788) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (450188) ENS 传感器  : 温度: 29.93℃[0m
+[1;31mE (450188) ENS 传感器  : 相对湿度: 59.25%[0m
+[1;31mE (451738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (452888) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (452888) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (453188) ENS 传感器  : 温度: 29.93℃[0m
+[1;31mE (453188) ENS 传感器  : 相对湿度: 59.29%[0m
+[1;31mE (454738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (455988) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (455988) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (456188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (456188) ENS 传感器  : 相对湿度: 59.11%[0m
+[1;31mE (457738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (459088) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (459088) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (459188) ENS 传感器  : 温度: 29.93℃[0m
+[1;31mE (459188) ENS 传感器  : 相对湿度: 59.25%[0m
+[1;31mE (460738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (462188) NTC 热敏电阻: 电阻值: 8327.5264Ω[0m
+[1;31mE (462188) NTC 热敏电阻: 温度: 29.18℃[0m
+[1;31mE (462188) ENS 传感器  : 温度: 29.94℃[0m
+[1;31mE (462188) ENS 传感器  : 相对湿度: 59.18%[0m
+[1;31mE (464238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (465188) ENS 传感器  : 温度: 29.93℃[0m
+[1;31mE (465188) ENS 传感器  : 相对湿度: 59.05%[0m
+[1;31mE (465288) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (465288) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (467238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (468188) ENS 传感器  : 温度: 29.88℃[0m
+[1;31mE (468188) ENS 传感器  : 相对湿度: 59.04%[0m
+[1;31mE (468388) NTC 热敏电阻: 电阻值: 8312.6943Ω[0m
+[1;31mE (468388) NTC 热敏电阻: 温度: 29.22℃[0m
+[1;31mE (470238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (471188) ENS 传感器  : 温度: 29.88℃[0m
+[1;31mE (471188) ENS 传感器  : 相对湿度: 59.14%[0m
+[1;31mE (471488) NTC 热敏电阻: 电阻值: 8342.3701Ω[0m
+[1;31mE (471488) NTC 热敏电阻: 温度: 29.14℃[0m
+[1;31mE (473238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (474188) ENS 传感器  : 温度: 29.80℃[0m
+[1;31mE (474188) ENS 传感器  : 相对湿度: 59.18%[0m
+[1;31mE (474588) NTC 热敏电阻: 电阻值: 8372.0938Ω[0m
+[1;31mE (474588) NTC 热敏电阻: 温度: 29.05℃[0m
+[1;31mE (476238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (477188) ENS 传感器  : 温度: 29.83℃[0m
+[1;31mE (477188) ENS 传感器  : 相对湿度: 59.19%[0m
+[1;31mE (477688) NTC 热敏电阻: 电阻值: 8372.0938Ω[0m
+[1;31mE (477688) NTC 热敏电阻: 温度: 29.05℃[0m
+[1;31mE (479238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (480188) ENS 传感器  : 温度: 29.80℃[0m
+[1;31mE (480188) ENS 传感器  : 相对湿度: 59.13%[0m
+[1;31mE (480788) NTC 热敏电阻: 电阻值: 8386.9717Ω[0m
+[1;31mE (480788) NTC 热敏电阻: 温度: 29.01℃[0m
+[1;31mE (482238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (483188) ENS 传感器  : 温度: 29.80℃[0m
+[1;31mE (483188) ENS 传感器  : 相对湿度: 59.13%[0m
+[1;31mE (483888) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (483888) NTC 热敏电阻: 温度: 28.97℃[0m
+[1;31mE (485238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (486188) ENS 传感器  : 温度: 29.77℃[0m
+[1;31mE (486188) ENS 传感器  : 相对湿度: 59.08%[0m
+[1;31mE (486988) NTC 热敏电阻: 电阻值: 8357.2266Ω[0m
+[1;31mE (486988) NTC 热敏电阻: 温度: 29.09℃[0m
+[1;31mE (488238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (489188) ENS 传感器  : 温度: 29.77℃[0m
+[1;31mE (489188) ENS 传感器  : 相对湿度: 59.06%[0m
+[1;31mE (490088) NTC 热敏电阻: 电阻值: 8386.9717Ω[0m
+[1;31mE (490088) NTC 热敏电阻: 温度: 29.01℃[0m
+[1;31mE (491238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (492188) ENS 传感器  : 温度: 29.74℃[0m
+[1;31mE (492188) ENS 传感器  : 相对湿度: 59.11%[0m
+[1;31mE (492238) RS485       : Start modbus test...[0m
+[1;31mE (493188) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (493188) NTC 热敏电阻: 温度: 28.97℃[0m
+[1;31mE (495188) ENS 传感器  : 温度: 29.73℃[0m
+[1;31mE (495188) ENS 传感器  : 相对湿度: 59.11%[0m
+[1;31mE (495238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (496288) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (496288) NTC 热敏电阻: 温度: 28.97℃[0m
+[1;31mE (498188) ENS 传感器  : 温度: 29.73℃[0m
+[1;31mE (498188) ENS 传感器  : 相对湿度: 59.11%[0m
+[1;31mE (498238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (499388) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (499388) NTC 热敏电阻: 温度: 28.97℃[0m
+[1;31mE (501188) ENS 传感器  : 温度: 29.73℃[0m
+[1;31mE (501188) ENS 传感器  : 相对湿度: 59.14%[0m
+[1;31mE (501238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (502488) NTC 热敏电阻: 电阻值: 8416.7637Ω[0m
+[1;31mE (502488) NTC 热敏电阻: 温度: 28.93℃[0m
+[1;31mE (504188) ENS 传感器  : 温度: 29.73℃[0m
+[1;31mE (504188) ENS 传感器  : 相对湿度: 59.26%[0m
+[1;31mE (504238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (505588) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (505588) NTC 热敏电阻: 温度: 28.97℃[0m
+[1;31mE (507188) ENS 传感器  : 温度: 29.73℃[0m
+[1;31mE (507188) ENS 传感器  : 相对湿度: 59.14%[0m
+[1;31mE (507238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (508688) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (508688) NTC 热敏电阻: 温度: 28.97℃[0m
+[1;31mE (510188) ENS 传感器  : 温度: 29.74℃[0m
+[1;31mE (510188) ENS 传感器  : 相对湿度: 59.18%[0m
+[1;31mE (510238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (511788) NTC 热敏电阻: 电阻值: 8416.7637Ω[0m
+[1;31mE (511788) NTC 热敏电阻: 温度: 28.93℃[0m
+[1;31mE (513188) ENS 传感器  : 温度: 29.71℃[0m
+[1;31mE (513188) ENS 传感器  : 相对湿度: 59.12%[0m
+[1;31mE (513238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (514888) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (514888) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (516188) ENS 传感器  : 温度: 29.69℃[0m
+[1;31mE (516188) ENS 传感器  : 相对湿度: 59.12%[0m
+[1;31mE (516238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (517988) NTC 热敏电阻: 电阻值: 8416.7637Ω[0m
+[1;31mE (517988) NTC 热敏电阻: 温度: 28.93℃[0m
+[1;31mE (519188) ENS 传感器  : 温度: 29.68℃[0m
+[1;31mE (519188) ENS 传感器  : 相对湿度: 59.16%[0m
+[1;31mE (519238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (521088) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (521088) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (522188) ENS 传感器  : 温度: 29.68℃[0m
+[1;31mE (522188) ENS 传感器  : 相对湿度: 59.12%[0m
+[1;31mE (522238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (524188) NTC 热敏电阻: 电阻值: 8416.7637Ω[0m
+[1;31mE (524188) NTC 热敏电阻: 温度: 28.93℃[0m
+[1;31mE (525188) ENS 传感器  : 温度: 29.66℃[0m
+[1;31mE (525188) ENS 传感器  : 相对湿度: 59.15%[0m
+[1;31mE (525738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (527288) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (527288) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (528188) ENS 传感器  : 温度: 29.68℃[0m
+[1;31mE (528188) ENS 传感器  : 相对湿度: 59.13%[0m
+[1;31mE (528738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (530388) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (530388) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (531188) ENS 传感器  : 温度: 29.65℃[0m
+[1;31mE (531188) ENS 传感器  : 相对湿度: 59.01%[0m
+[1;31mE (531738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (533488) NTC 热敏电阻: 电阻值: 8416.7637Ω[0m
+[1;31mE (533488) NTC 热敏电阻: 温度: 28.93℃[0m
+[1;31mE (534188) ENS 传感器  : 温度: 29.63℃[0m
+[1;31mE (534188) ENS 传感器  : 相对湿度: 59.11%[0m
+[1;31mE (534738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (536588) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (536588) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (537188) ENS 传感器  : 温度: 29.57℃[0m
+[1;31mE (537188) ENS 传感器  : 相对湿度: 59.07%[0m
+[1;31mE (537738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (539688) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (539688) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (540188) ENS 传感器  : 温度: 29.58℃[0m
+[1;31mE (540188) ENS 传感器  : 相对湿度: 59.00%[0m
+[1;31mE (540738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (542788) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (542788) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (543188) ENS 传感器  : 温度: 29.62℃[0m
+[1;31mE (543188) ENS 传感器  : 相对湿度: 59.11%[0m
+[1;31mE (543738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (545888) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (545888) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (546188) ENS 传感器  : 温度: 29.58℃[0m
+[1;31mE (546188) ENS 传感器  : 相对湿度: 59.16%[0m
+[1;31mE (546738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (548988) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (548988) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (549188) ENS 传感器  : 温度: 29.60℃[0m
+[1;31mE (549188) ENS 传感器  : 相对湿度: 59.23%[0m
+[1;31mE (549738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (552088) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (552088) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (552188) ENS 传感器  : 温度: 29.60℃[0m
+[1;31mE (552188) ENS 传感器  : 相对湿度: 59.39%[0m
+[1;31mE (552738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (553738) RS485       : Start modbus test...[0m
+[1;31mE (555188) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (555188) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (555188) ENS 传感器  : 温度: 29.60℃[0m
+[1;31mE (555188) ENS 传感器  : 相对湿度: 59.29%[0m
+[1;31mE (556738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (558188) ENS 传感器  : 温度: 29.60℃[0m
+[1;31mE (558188) ENS 传感器  : 相对湿度: 59.23%[0m
+[1;31mE (558288) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (558288) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (559738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (561188) ENS 传感器  : 温度: 29.57℃[0m
+[1;31mE (561188) ENS 传感器  : 相对湿度: 59.12%[0m
+[1;31mE (561388) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (561388) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (562738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (564188) ENS 传感器  : 温度: 29.57℃[0m
+[1;31mE (564188) ENS 传感器  : 相对湿度: 59.21%[0m
+[1;31mE (564488) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (564488) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (565738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (567188) ENS 传感器  : 温度: 29.62℃[0m
+[1;31mE (567188) ENS 传感器  : 相对湿度: 59.16%[0m
+[1;31mE (567588) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (567588) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (568738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (570188) ENS 传感器  : 温度: 29.57℃[0m
+[1;31mE (570188) ENS 传感器  : 相对湿度: 59.11%[0m
+[1;31mE (570688) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (570688) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (571738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (573188) ENS 传感器  : 温度: 29.57℃[0m
+[1;31mE (573188) ENS 传感器  : 相对湿度: 59.09%[0m
+[1;31mE (573788) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (573788) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (574738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (576188) ENS 传感器  : 温度: 29.54℃[0m
+[1;31mE (576188) ENS 传感器  : 相对湿度: 59.11%[0m
+[1;31mE (576888) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (576888) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (577738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (579188) ENS 传感器  : 温度: 29.60℃[0m
+[1;31mE (579188) ENS 传感器  : 相对湿度: 59.16%[0m
+[1;31mE (579988) NTC 热敏电阻: 电阻值: 8476.4863Ω[0m
+[1;31mE (579988) NTC 热敏电阻: 温度: 28.77℃[0m
+[1;31mE (580738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (582188) ENS 传感器  : 温度: 29.57℃[0m
+[1;31mE (582188) ENS 传感器  : 相对湿度: 59.00%[0m
+[1;31mE (583088) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (583088) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (583738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (585188) ENS 传感器  : 温度: 29.57℃[0m
+[1;31mE (585188) ENS 传感器  : 相对湿度: 58.90%[0m
+[1;31mE (586188) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (586188) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (587238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (588188) ENS 传感器  : 温度: 29.55℃[0m
+[1;31mE (588188) ENS 传感器  : 相对湿度: 58.86%[0m
+[1;31mE (589288) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (589288) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (590238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (591188) ENS 传感器  : 温度: 29.55℃[0m
+[1;31mE (591188) ENS 传感器  : 相对湿度: 58.84%[0m
+[1;31mE (592388) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (592388) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (593238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (594188) ENS 传感器  : 温度: 29.52℃[0m
+[1;31mE (594188) ENS 传感器  : 相对湿度: 58.88%[0m
+[1;31mE (595488) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (595488) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (596238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (597188) ENS 传感器  : 温度: 29.49℃[0m
+[1;31mE (597188) ENS 传感器  : 相对湿度: 59.02%[0m
+[1;31mE (598588) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (598588) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (599238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (600188) ENS 传感器  : 温度: 29.54℃[0m
+[1;31mE (600188) ENS 传感器  : 相对湿度: 58.93%[0m
+[1;31mE (601688) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (601688) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (602238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (603188) ENS 传感器  : 温度: 29.51℃[0m
+[1;31mE (603188) ENS 传感器  : 相对湿度: 58.91%[0m
+[1;31mE (604788) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (604788) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (605238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (606188) ENS 传感器  : 温度: 29.52℃[0m
+[1;31mE (606188) ENS 传感器  : 相对湿度: 59.03%[0m
+[1;31mE (607888) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (607888) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (608238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (609188) ENS 传感器  : 温度: 29.52℃[0m
+[1;31mE (609188) ENS 传感器  : 相对湿度: 59.07%[0m
+[1;31mE (610988) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (610988) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (611238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (612188) ENS 传感器  : 温度: 29.52℃[0m
+[1;31mE (612188) ENS 传感器  : 相对湿度: 58.96%[0m
+[1;31mE (614088) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (614088) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (614238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (615188) ENS 传感器  : 温度: 29.57℃[0m
+[1;31mE (615188) ENS 传感器  : 相对湿度: 59.37%[0m
+[1;31mE (615238) RS485       : Start modbus test...[0m
+[1;31mE (617188) NTC 热敏电阻: 电阻值: 8461.5391Ω[0m
+[1;31mE (617188) NTC 热敏电阻: 温度: 28.81℃[0m
+[1;31mE (618188) ENS 传感器  : 温度: 29.57℃[0m
+[1;31mE (618188) ENS 传感器  : 相对湿度: 59.44%[0m
+[1;31mE (618238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (620288) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (620288) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (621188) ENS 传感器  : 温度: 29.57℃[0m
+[1;31mE (621188) ENS 传感器  : 相对湿度: 59.34%[0m
+[1;31mE (621238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (623388) NTC 热敏电阻: 电阻值: 8446.6025Ω[0m
+[1;31mE (623388) NTC 热敏电阻: 温度: 28.85℃[0m
+[1;31mE (624188) ENS 传感器  : 温度: 29.60℃[0m
+[1;31mE (624188) ENS 传感器  : 相对湿度: 59.15%[0m
+[1;31mE (624238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (626488) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (626488) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (627188) ENS 传感器  : 温度: 29.63℃[0m
+[1;31mE (627188) ENS 传感器  : 相对湿度: 59.06%[0m
+[1;31mE (627238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (629588) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (629588) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (630188) ENS 传感器  : 温度: 29.63℃[0m
+[1;31mE (630188) ENS 传感器  : 相对湿度: 58.79%[0m
+[1;31mE (630238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (632688) NTC 热敏电阻: 电阻值: 8416.7637Ω[0m
+[1;31mE (632688) NTC 热敏电阻: 温度: 28.93℃[0m
+[1;31mE (633188) ENS 传感器  : 温度: 29.60℃[0m
+[1;31mE (633188) ENS 传感器  : 相对湿度: 58.83%[0m
+[1;31mE (633238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (635788) NTC 热敏电阻: 电阻值: 8416.7637Ω[0m
+[1;31mE (635788) NTC 热敏电阻: 温度: 28.93℃[0m
+[1;31mE (636188) ENS 传感器  : 温度: 29.63℃[0m
+[1;31mE (636188) ENS 传感器  : 相对湿度: 58.71%[0m
+[1;31mE (636238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (638888) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (638888) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (639188) ENS 传感器  : 温度: 29.66℃[0m
+[1;31mE (639188) ENS 传感器  : 相对湿度: 58.69%[0m
+[1;31mE (639238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (641988) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (641988) NTC 热敏电阻: 温度: 28.97℃[0m
+[1;31mE (642188) ENS 传感器  : 温度: 29.66℃[0m
+[1;31mE (642188) ENS 传感器  : 相对湿度: 58.68%[0m
+[1;31mE (642238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (645088) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (645088) NTC 热敏电阻: 温度: 28.97℃[0m
+[1;31mE (645188) ENS 传感器  : 温度: 29.69℃[0m
+[1;31mE (645188) ENS 传感器  : 相对湿度: 58.63%[0m
+[1;31mE (645238) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (648188) NTC 热敏电阻: 电阻值: 8416.7637Ω[0m
+[1;31mE (648188) NTC 热敏电阻: 温度: 28.93℃[0m
+[1;31mE (648188) ENS 传感器  : 温度: 29.69℃[0m
+[1;31mE (648188) ENS 传感器  : 相对湿度: 58.72%[0m
+[1;31mE (648738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (651188) ENS 传感器  : 温度: 29.73℃[0m
+[1;31mE (651188) ENS 传感器  : 相对湿度: 58.46%[0m
+[1;31mE (651288) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (651288) NTC 热敏电阻: 温度: 28.97℃[0m
+[1;31mE (651738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (654188) ENS 传感器  : 温度: 29.69℃[0m
+[1;31mE (654188) ENS 传感器  : 相对湿度: 58.28%[0m
+[1;31mE (654388) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (654388) NTC 热敏电阻: 温度: 28.97℃[0m
+[1;31mE (654738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (657188) ENS 传感器  : 温度: 29.68℃[0m
+[1;31mE (657188) ENS 传感器  : 相对湿度: 58.24%[0m
+[1;31mE (657488) NTC 热敏电阻: 电阻值: 8431.6768Ω[0m
+[1;31mE (657488) NTC 热敏电阻: 温度: 28.89℃[0m
+[1;31mE (657738) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[1;31mE (660188) ENS 传感器  : 温度: 29.66℃[0m
+[1;31mE (660188) ENS 传感器  : 相对湿度: 58.18%[0m
+[1;31mE (660588) NTC 热敏电阻: 电阻值: 8401.8613Ω[0m
+[1;31mE (660588) NTC 热敏电阻: 温度: 28.97℃[0m

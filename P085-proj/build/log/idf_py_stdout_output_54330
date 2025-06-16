@@ -1,0 +1,335 @@
+[0;32mI (123) esp_image: segment 3: paddr=000425bc vaddr=408007e8 sizee all GPIO pins in sleeESP-ROM:esp32c6-20220919[0m
+Build:Sep 19 2022
+rst:0x15 (USB_UART_HPSYS),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x400294a6
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x16b8
+load:0x4086c110,len:0xe84
+load:0x4086e610,len:0x3058
+entry 0x4086c11a
+[0;32mI (23) boot: ESP-IDF v5.4.1-dirty 2nd stage bootloader[0m
+[0;32mI (23) boot: compile time Jun 10 2025 19:13:23[0m
+[0;32mI (24) boot: chip revision: v0.2[0m
+[0;32mI (24) boot: efuse block revision: v0.3[0m
+[0;32mI (27) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (31) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (34) boot.esp32c6: SPI Flash Size : 2MB[0m
+[0;32mI (38) boot: Enabling RNG early entropy source...[0m
+[0;32mI (43) boot: Partition Table:[0m
+[0;32mI (45) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (52) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (71) boot: End of partition table[0m
+[0;32mI (75) esp_image: segment 0: paddr=00010020 vaddr=42028020 size=0f808h ( 63496) map[0m
+[0;32mI (94) esp_image: segment 1: paddr=0001f830 vaddr=40800000 size=007e8h (  2024) load[0m
+[0;32mI (95) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=22594h (140692) map[0m
+[0;32mI (123) esp_image: segment 3: paddr=000425bc vaddr=408007e8 size=0cbc0h ( 52160) load[0m
+[0;32mI (135) esp_image: segment 4: paddr=0004f184 vaddr=4080d3b0 size=017d8h (  6104) load[0m
+[0;32mI (138) esp_image: segment 5: paddr=00050964 vaddr=50000000 size=0001ch (    28) load[0m
+[0;32mI (142) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (144) boot: Disabling RNG early entropy source...[0m
+[0;32mI (161) cpu_start: Unicore app[0m
+[0;32mI (169) cpu_start: Pro cpu start user code[0m
+[0;32mI (169) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (170) app_init: Application information:[0m
+[0;32mI (170) app_init: Project name:     P085-proj[0m
+[0;32mI (173) app_init: App version:      59a9621-dirty[0m
+[0;32mI (178) app_init: Compile time:     Jun 10 2025 19:13:15[0m
+[0;32mI (183) app_init: ELF file SHA256:  4eee8f8a9...[0m
+[0;32mI (187) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (191) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (195) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (199) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (203) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (209) heap_init: At 40810270 len 0006C3A0 (432 KiB): RAM[0m
+[0;32mI (215) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (220) heap_init: At 5000001C len 00003FCC (15 KiB): RTCRAM[0m
+[0;32mI (226) spi_flash: detected chip: generic[0m
+[0;32mI (229) spi_flash: flash io: dio[0m
+[0;33mW (232) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (244) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (250) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (257) coexist: coex firmware version: e727207[0m
+[0;32mI (261) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (265) main_task: Started on CPU0[0m
+[0;32mI (265) main_task: Calling app_main()[0m
+[1;31mE (265) 啦啦啦: --------------------   开始测试   -----------------------------------[0m
+[0;32mI (275) gpio: GPIO[8]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (285) gpio: GPIO[14]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (295) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (295) gpio: GPIO[9]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:3 [0m
+[0;32mI (305) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (315) gpio: GPIO[2]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (325) gpio: GPIO[3]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[1;31mE (435) ENS 传感器  : 设备地址: 0x43[0m
+[0;32mI (435) gpio: GPIO[4]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (435) uart: queue free spaces: 20[0m
+[1;31mE (485) RS485       : Modbus master stack initialized...[0m
+[1;31mE (485) RS485       : Start modbus test...[0m
+[1;31mE (3485) MB_CONTROLLER_MASTER: mbc_master_get_parameter(75): Master get parameter failure, error=(0x107) (ESP_ERR_TIMEOUT).[0m
+[0;33mW (3485) RS485       : Characteristic #0 (Data_channel_0) read fail, err = 0x107 (ESP_ERR_TIMEOUT).[0m
+
+assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)
+Core  0 register dump:
+MEPC    : 0x40800966  RA      : 0x408069d6  SP      : 0x4080f3f0  GP      : 0x4080dbb4  
+TP      : 0x40813990  T0      : 0x37363534  T1      : 0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000082  S1      : 0x00000001  A0      : 0x4080f42c  A1      : 0x4080e1e5  
+A2      : 0x00000001  A3      : 0x00000029  A4      : 0x00000001  A5      : 0x40810000  
+A6      : 0x0000000c  A7      : 0x76757473  S2      : 0x00000009  S3      : 0x4080f545  
+S4      : 0x4080e1e4  S5      : 0x4080f54c  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4      : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+panic_abort (details=details@entry=0x4080f42c <xIsrStack+1164> "assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+468	    asm("unimp");   // should be an invalid operation on RISC-V targets
+#0  panic_abort (details=details@entry=0x4080f42c <xIsrStack+1164> "assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+#1  0x408069d6 in esp_system_abort (details=details@entry=0x4080f42c <xIsrStack+1164> "assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:87
+#2  0x4080c310 in __assert_func (file=file@entry=0x4202a146 "", line=line@entry=6030, func=<optimized out>, func@entry=0x42034484 <__func__.9> "", expr=expr@entry=0x4202a4a8 "") at /home/yizhihuyao/esp32/esp-idf/components/newlib/assert.c:80
+#3  0x40809d20 in xTaskGenericNotifyFromISR (xTaskToNotify=0x0, uxIndexToNotify=uxIndexToNotify@entry=0, ulValue=1, eAction=eAction@entry=eSetValueWithOverwrite, pulPreviousNotificationValue=pulPreviousNotificationValue@entry=0x0, pxHigherPriorityTaskWoken=pxHigherPriorityTaskWoken@entry=0x4080f54c <xIsrStack+1452>) at /home/yizhihuyao/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:6030
+#4  0x4200f1be in btn_isr_callback (arg=<optimized out>) at /home/yizhihuyao/esp32/proj/P085-proj/main/src/button.c:48
+#5  0x4080213a in gpio_isr_loop (status=0, gpio_num_start=gpio_num_start@entry=0) at /home/yizhihuyao/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:466
+#6  0x408021d4 in gpio_intr_service (arg=<optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:488
+#7  0x4080c4a4 in _global_interrupt_handler (sp=<optimized out>, mcause=<optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/riscv/interrupt.c:67
+#8  0x4080026e in _interrupt_handler () at /home/yizhihuyao/esp32/esp-idf/components/riscv/vectors.S:365
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 4eee8f8a9
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x16b8
+load:0x4086c110,len:0xe84
+load:0x4086e610,len:0x3058
+entry 0x4086c11a
+[0;32mI (22) boot: ESP-IDF v5.4.1-dirty 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Jun 10 2025 19:13:23[0m
+[0;32mI (23) boot: chip revision: v0.2[0m
+[0;32mI (24) boot: efuse block revision: v0.3[0m
+[0;32mI (26) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (30) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (33) boot.esp32c6: SPI Flash Size : 2MB[0m
+[0;32mI (37) boot: Enabling RNG early entropy source...[0m
+[0;32mI (42) boot: Partition Table:[0m
+[0;32mI (44) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (51) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (57) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (64) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (70) boot: End of partition table[0m
+[0;32mI (74) esp_image: segment 0: paddr=00010020 vaddr=42028020 size=0f808h ( 63496) map[0m
+[0;32mI (104) esp_image: segment 1: paddr=0001f830 vaddr=40800000 size=007e8h (  2024) load[0m
+[0;32mI (107) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=22594h (140692) map[0m
+[0;32mI (160) esp_image: segment 3: paddr=000425bc vaddr=408007e8 size=0cbc0h ( 52160) load[0m
+[0;32mI (183) esp_image: segment 4: paddr=0004f184 vaddr=4080d3b0 size=017d8h (  6104) load[0m
+[0;32mI (187) esp_image: segment 5: paddr=00050964 vaddr=50000000 size=0001ch (    28) load[0m
+[0;32mI (194) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (195) boot: Disabling RNG early entropy source...[0m
+[0;32mI (208) cpu_start: Unicore app[0m
+[0;32mI (217) cpu_start: Pro cpu start user code[0m
+[0;32mI (217) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (218) app_init: Application information:[0m
+[0;32mI (218) app_init: Project name:     P085-proj[0m
+[0;32mI (221) app_init: App version:      59a9621-dirty[0m
+[0;32mI (226) app_init: Compile time:     Jun 10 2025 19:13:15[0m
+[0;32mI (231) app_init: ELF file SHA256:  4eee8f8a9...[0m
+[0;32mI (235) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (240) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (243) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (247) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (251) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (258) heap_init: At 40810270 len 0006C3A0 (432 KiB): RAM[0m
+[0;32mI (263) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (268) heap_init: At 5000001C len 00003FCC (15 KiB): RTCRAM[0m
+[0;32mI (274) spi_flash: detected chip: generic[0m
+[0;32mI (277) spi_flash: flash io: dio[0m
+[0;33mW (280) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (293) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (298) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (305) coexist: coex firmware version: e727207[0m
+[0;32mI (309) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (314) main_task: Started on CPU0[0m
+[0;32mI (314) main_task: Calling app_main()[0m
+[1;31mE (314) 啦啦啦: --------------------   开始测试   -----------------------------------[0m
+[0;32mI (324) gpio: GPIO[8]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (334) gpio: GPIO[14]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (344) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (344) gpio: GPIO[9]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:3 [0m
+[0;32mI (354) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (364) gpio: GPIO[2]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (374) gpio: GPIO[3]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[1;31mE (484) ENS 传感器  : 设备地址: 0x43[0m
+[0;32mI (484) gpio: GPIO[4]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (484) uart: queue free spaces: 20[0m
+[1;31mE (534) RS485       : Modbus master stack initialized...[0m
+[1;31mE (534) RS485       : Start modbus test...[0m
+
+assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)
+Core  0 register dump:
+MEPC    : 0x40800966  RA      : 0x408069d6  SP      : 0x4080f3f0  GP      : 0x4080dbb4  
+TP      : 0x40813990  T0      : 0x37363534  T1      : 0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000082  S1      : 0x00000001  A0      : 0x4080f42c  A1      : 0x4080e1e5  
+A2      : 0x00000001  A3      : 0x00000029  A4      : 0x00000001  A5      : 0x40810000  
+A6      : 0x0000000c  A7      : 0x76757473  S2      : 0x00000009  S3      : 0x4080f545  
+S4      : 0x4080e1e4  S5      : 0x4080f54c  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4      : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+panic_abort (details=details@entry=0x4080f42c <xIsrStack+1164> "assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+468	    asm("unimp");   // should be an invalid operation on RISC-V targets
+#0  panic_abort (details=details@entry=0x4080f42c <xIsrStack+1164> "assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+#1  0x408069d6 in esp_system_abort (details=details@entry=0x4080f42c <xIsrStack+1164> "assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:87
+#2  0x4080c310 in __assert_func (file=file@entry=0x4202a146 "", line=line@entry=6030, func=<optimized out>, func@entry=0x42034484 <__func__.9> "", expr=expr@entry=0x4202a4a8 "") at /home/yizhihuyao/esp32/esp-idf/components/newlib/assert.c:80
+#3  0x40809d20 in xTaskGenericNotifyFromISR (xTaskToNotify=0x0, uxIndexToNotify=uxIndexToNotify@entry=0, ulValue=1, eAction=eAction@entry=eSetValueWithOverwrite, pulPreviousNotificationValue=pulPreviousNotificationValue@entry=0x0, pxHigherPriorityTaskWoken=pxHigherPriorityTaskWoken@entry=0x4080f54c <xIsrStack+1452>) at /home/yizhihuyao/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:6030
+#4  0x4200f1be in btn_isr_callback (arg=<optimized out>) at /home/yizhihuyao/esp32/proj/P085-proj/main/src/button.c:48
+#5  0x4080213a in gpio_isr_loop (status=0, gpio_num_start=gpio_num_start@entry=0) at /home/yizhihuyao/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:466
+#6  0x408021d4 in gpio_intr_service (arg=<optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:488
+#7  0x4080c4a4 in _global_interrupt_handler (sp=<optimized out>, mcause=<optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/riscv/interrupt.c:67
+#8  0x4080026e in _interrupt_handler () at /home/yizhihuyao/esp32/esp-idf/components/riscv/vectors.S:365
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 4eee8f8a9
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x16b8
+load:0x4086c110,len:0xe84
+load:0x4086e610,len:0x3058
+entry 0x4086c11a
+[0;32mI (22) boot: ESP-IDF v5.4.1-dirty 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Jun 10 2025 19:13:23[0m
+[0;32mI (23) boot: chip revision: v0.2[0m
+[0;32mI (24) boot: efuse block revision: v0.3[0m
+[0;32mI (26) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (30) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (33) boot.esp32c6: SPI Flash Size : 2MB[0m
+[0;32mI (37) boot: Enabling RNG early entropy source...[0m
+[0;32mI (42) boot: Partition Table:[0m
+[0;32mI (44) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (51) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (57) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (64) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (70) boot: End of partition table[0m
+[0;32mI (74) esp_image: segment 0: paddr=00010020 vaddr=42028020 size=0f808h ( 63496) map[0m
+[0;32mI (104) esp_image: segment 1: paddr=0001f830 vaddr=40800000 size=007e8h (  2024) load[0m
+[0;32mI (107) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=22594h (140692) map[0m
+[0;32mI (160) esp_image: segment 3: paddr=000425bc vaddr=408007e8 size=0cbc0h ( 52160) load[0m
+[0;32mI (183) esp_image: segment 4: paddr=0004f184 vaddr=4080d3b0 size=017d8h (  6104) load[0m
+[0;32mI (187) esp_image: segment 5: paddr=00050964 vaddr=50000000 size=0001ch (    28) load[0m
+[0;32mI (195) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (195) boot: Disabling RNG early entropy source...[0m
+[0;32mI (208) cpu_start: Unicore app[0m
+[0;32mI (217) cpu_start: Pro cpu start user code[0m
+[0;32mI (217) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (218) app_init: Application information:[0m
+[0;32mI (218) app_init: Project name:     P085-proj[0m
+[0;32mI (221) app_init: App version:      59a9621-dirty[0m
+[0;32mI (226) app_init: Compile time:     Jun 10 2025 19:13:15[0m
+[0;32mI (231) app_init: ELF file SHA256:  4eee8f8a9...[0m
+[0;32mI (235) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (240) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (243) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (247) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (251) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (258) heap_init: At 40810270 len 0006C3A0 (432 KiB): RAM[0m
+[0;32mI (263) heap_init: At 4087C610 len 00002F54 (11 KiB): RAM[0m
+[0;32mI (268) heap_init: At 5000001C len 00003FCC (15 KiB): RTCRAM[0m
+[0;32mI (274) spi_flash: detected chip: generic[0m
+[0;32mI (277) spi_flash: flash io: dio[0m
+[0;33mW (280) spi_flash: Detected size(8192k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (293) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (298) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (305) coexist: coex firmware version: e727207[0m
+[0;32mI (309) coexist: coexist rom version 5b8dcfa[0m
+[0;32mI (314) main_task: Started on CPU0[0m
+[0;32mI (314) main_task: Calling app_main()[0m
+[1;31mE (314) 啦啦啦: --------------------   开始测试   -----------------------------------[0m
+[0;32mI (324) gpio: GPIO[8]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (334) gpio: GPIO[14]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (344) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (344) gpio: GPIO[9]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:3 [0m
+[0;32mI (354) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (364) gpio: GPIO[2]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (374) gpio: GPIO[3]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[1;31mE (484) ENS 传感器  : 设备地址: 0x43[0m
+[0;32mI (484) gpio: GPIO[4]| InputEn: 0| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (484) uart: queue free spaces: 20[0m
+[1;31mE (534) RS485       : Modbus master stack initialized...[0m
+[1;31mE (534) RS485       : Start modbus test...[0m
+
+assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)
+Core  0 register dump:
+MEPC    : 0x40800966  RA      : 0x408069d6  SP      : 0x4080f3f0  GP      : 0x4080dbb4  
+TP      : 0x40813990  T0      : 0x37363534  T1      : 0x7271706f  T2      : 0x33323130  
+S0/FP   : 0x00000082  S1      : 0x00000001  A0      : 0x4080f42c  A1      : 0x4080e1e5  
+A2      : 0x00000001  A3      : 0x00000029  A4      : 0x00000001  A5      : 0x40810000  
+A6      : 0x0000000c  A7      : 0x76757473  S2      : 0x00000009  S3      : 0x4080f545  
+S4      : 0x4080e1e4  S5      : 0x4080f54c  S6      : 0x00000000  S7      : 0x00000000  
+S8      : 0x00000000  S9      : 0x00000000  S10     : 0x00000000  S11     : 0x00000000  
+T3      : 0x6e6d6c6b  T4      : 0x6a696867  T5      : 0x66656463  T6      : 0x62613938  
+MSTATUS : 0x00001881  MTVEC   : 0x40800001  MCAUSE  : 0x00000002  MTVAL   : 0x00000000  
+MHARTID : 0x00000000  
+
+panic_abort (details=details@entry=0x4080f42c <xIsrStack+1164> "assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+468	    asm("unimp");   // should be an invalid operation on RISC-V targets
+#0  panic_abort (details=details@entry=0x4080f42c <xIsrStack+1164> "assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/panic.c:468
+#1  0x408069d6 in esp_system_abort (details=details@entry=0x4080f42c <xIsrStack+1164> "assert failed: xTaskGenericNotifyFromISR tasks.c:6030 (xTaskToNotify)") at /home/yizhihuyao/esp32/esp-idf/components/esp_system/port/esp_system_chip.c:87
+#2  0x4080c310 in __assert_func (file=file@entry=0x4202a146 "", line=line@entry=6030, func=<optimized out>, func@entry=0x42034484 <__func__.9> "", expr=expr@entry=0x4202a4a8 "") at /home/yizhihuyao/esp32/esp-idf/components/newlib/assert.c:80
+#3  0x40809d20 in xTaskGenericNotifyFromISR (xTaskToNotify=0x0, uxIndexToNotify=uxIndexToNotify@entry=0, ulValue=1, eAction=eAction@entry=eSetValueWithOverwrite, pulPreviousNotificationValue=pulPreviousNotificationValue@entry=0x0, pxHigherPriorityTaskWoken=pxHigherPriorityTaskWoken@entry=0x4080f54c <xIsrStack+1452>) at /home/yizhihuyao/esp32/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:6030
+#4  0x4200f1be in btn_isr_callback (arg=<optimized out>) at /home/yizhihuyao/esp32/proj/P085-proj/main/src/button.c:48
+#5  0x4080213a in gpio_isr_loop (status=0, gpio_num_start=gpio_num_start@entry=0) at /home/yizhihuyao/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:466
+#6  0x408021d4 in gpio_intr_service (arg=<optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/esp_driver_gpio/src/gpio.c:488
+#7  0x4080c4a4 in _global_interrupt_handler (sp=<optimized out>, mcause=<optimized out>) at /home/yizhihuyao/esp32/esp-idf/components/riscv/interrupt.c:67
+#8  0x4080026e in _interrupt_handler () at /home/yizhihuyao/esp32/esp-idf/components/riscv/vectors.S:365
+Backtrace stopped: previous frame inner to this frame (corrupt stack?)
+
+
+
+ELF file SHA256: 4eee8f8a9
+
+Rebooting...
+ESP-ROM:esp32c6-20220919
+Build:Sep 19 2022
+rst:0xc (SW_CPU),boot:0x8 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x4001975a
+SPIWP:0xee
+mode:DIO, clock div:2
+load:0x40875720,len:0x16b8
+load:0x4086c110,len:0xe84
+load:0x4086e610,len:0x3058
+entry 0x4086c11a
+[0;32mI (22) boot: ESP-IDF v5.4.1-dirty 2nd stage bootloader[0m
+[0;32mI (22) boot: compile time Jun 10 2025 19:13:23[0m
+[0;32mI (23) boot: chip revision: v0.2[0m
+[0;32mI (24) boot: efuse block revision: v0.3[0m
+[0;32mI (26) boot.esp32c6: SPI Speed      : 80MHz[0m
+[0;32mI (30) boot.esp32c6: SPI Mode       : DIO[0m
+[0;32mI (33) boot.esp32c6: SPI Flash Size : 2MB[0m
+[0;32mI (37) boot: Enabling RNG early entropy source...[0m
+[0;32mI (42) boot: Partition Table:[0m
+[0;32mI (44) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (51) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (57) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (64) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (70) boot: End of partition table[0m
+[0;32mI (74) esp_image: segment 0: paddr=00010020 vaddr=42028020 size=0f808h ( 63496) map[0m
+[0;32mI (104) esp_image: segment 1: paddr=0001f830 vaddr=40800000 size=007e8h (  2024) load[0m
+[0;32mI (107) esp_image: segment 2: paddr=00020020 vaddr=42000020 size=22594h (140692) map[0m
